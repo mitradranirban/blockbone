@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="weight" minimum="400" maximum="900" default="400">
+      <map input="0" output="0"/>
+      <map input="1" output="1"/>
+      <labels>
+        <label uservalue="400" name="Regular" elidable="true" linkeduservalue="900"/>
+        <label uservalue="500" name="Medium"/>
+        <label uservalue="600" name="SemiBold"/>
+        <label uservalue="700" name="Bold"/>
+        <label uservalue="800" name="ExtraBold"/>
+        <label uservalue="900" name="Black"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="BlockBoneSerif.ufo" name="::fontra000-9f929db6" familyname="BlockBone" stylename="Regular">
+      <location>
+        <dimension name="weight" xvalue="400"/>
+      </location>
+    </source>
+    <source filename="BlockBoneBlock.ufo" name="::fontra001-cadfb8e4" familyname="BlockBone" stylename="Black">
+      <location>
+        <dimension name="weight" xvalue="900"/>
+      </location>
+    </source>
+  </sources>
+</designspace>
