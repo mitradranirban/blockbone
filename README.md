@@ -2,13 +2,13 @@
 
 # BlockBone Serif to Blackletter Variable Font
 
-[![][Fontbakery]](https://googlefonts.github.io/googlefonts-project-template/fontbakery/fontbakery-report.html)
-[![][Universal]](https://googlefonts.github.io/googlefonts-project-template/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://googlefonts.github.io/googlefonts-project-template/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://googlefonts.github.io/googlefonts-project-template/fontbakery/fontbakery-report.html)
+[![][Fontbakery]](https://mitradranirban.github.io/blockbone.git/fontbakery/fontbakery-report.html)
+[![][Universal]](https://mitradranirban.github.io/blockbone.git/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://mitradranirban.github.io/blockbone.git/fontbakery/fontbakery-report.html)
+[![][Shaping]](https://mitradranirban.github.io/blockbone.git/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2Foverall.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgooglefonts%2Fgooglefonts-project-template%2Fgh-pages%2Fbadges%2FUniversal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fblockbone.git%2Fgh-pages%2Fbadges%2Foverall.json
+[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fblockbone.git%2Fgh-pages%2Fbadges%2FUniversal.json
 
  BlockBone is proposed to be a variable font transitioning leters from Serif style to Blacletter style with increase in weight. It will be usefull for web animation
 
@@ -22,7 +22,7 @@
 
 
 
-The proof files and QA tests are also available automatically via GitHub Actions - look at `https://yourname.github.io/your-font-repository-name`.
+The proof files and QA tests are also available automatically via GitHub Actions - look at https://mitradranirban.github.io/blockbone.git.
 
 ## Changelog
 
