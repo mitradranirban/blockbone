@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.0
+
+
 
 
 
@@ -10,10 +12,10 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[24] BlockBone[wght].ttf</summary>
+<details><summary>[19] Blockbone[wght].ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
     <div>
 
 
@@ -22,36 +24,7 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
- [code: mono-bad-panose]
-
-
-
-* ⚠️ **WARN** <p>Font is monospaced but 2 glyphs (66.67%) have a different width. You should check the widths of: ['A', 'a']</p>
- [code: mono-outliers]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to a name ID whose string is equal to the string of either name ID 2 or 17, and its postScriptNameID value is set to a name ID whose string is equal to the string of name ID 6. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.fvar.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>'Regular' instance has the same coordinates as the default instance; its subfamily name should be 'Serif'.</p>
-<p>Note: It is alternatively possible that Name ID 17 is incorrect, and should be set to the default instance subfamily name, 'Regular', rather than ''Serif''. If the default instance is 'Regular', NameID 17 is probably the problem.</p>
- [code: invalid-default-instance-subfamily-name]
-
-
-
-* 🔥 **FAIL** <p>'Regular' instance has the same coordinates as the default instance; its postscript name should be 'BlockBoneSerif', instead of 'BlockBone-Regular'.</p>
+* 🔥 **FAIL** <p>'Regular' instance has the same coordinates as the default instance; its postscript name should be 'Blockbone-Regular', instead of 'BlockBone-Regular'.</p>
  [code: invalid-default-instance-postscript-name]
 
 
@@ -60,7 +33,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking Vertical Metric Linegaps. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
     <div>
 
 
@@ -69,11 +42,8 @@ fontbakery version: 0.12.10
 
 
 
-* 🔥 **FAIL** <p>OS/2 sTypoLineGap is not equal to 0.</p>
-<p><em>Overridden</em>: This check was originally a WARN but was
-overridden by the universal profile:
-For Google Fonts, all messages from this check are considered FAILs.</p>
- [code: OS/2]
+* 🔥 **FAIL** <p>OS/2 sTypoDescender (-200) and hhea descent (300) must be equal.</p>
+ [code: descender]
 
 
 
@@ -81,35 +51,12 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-glyphs">whitespace_glyphs</a></summary>
     <div>
 
 
 
 
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoAscender (800) and hhea ascent (770) must be equal.</p>
- [code: ascender]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x0020.</p>
- [code: missing-whitespace-glyph-0x0020]
 
 
 
@@ -122,7 +69,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
     <div>
 
 
@@ -140,7 +87,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check family name for GF Guide compliance. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-family-name-compliance">googlefonts/family_name_compliance</a></summary>
     <div>
 
 
@@ -158,7 +105,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check copyright namerecords match license file. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.license.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking file is named canonically. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-canonical-filename">googlefonts/canonical_filename</a></summary>
     <div>
 
 
@@ -167,8 +114,8 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 
 
 
-* 🔥 **FAIL** <p>Font lacks NameID 13 (LICENSE DESCRIPTION). A proper licensing entry must be set.</p>
- [code: missing]
+* 🔥 **FAIL** <p>Expected &quot;BlockBone[wght].ttf. Got Blockbone[wght].ttf.</p>
+ [code: bad-filename]
 
 
 
@@ -176,28 +123,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Copyright notices match canonical pattern in fonts <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.copyright.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Name Table entry: Copyright notices should match a pattern similar to:</p>
-<p>&quot;Copyright 2020 The Familyname Project Authors (git url)&quot;</p>
-<p>But instead we have got:</p>
-<p>&quot;Copyright (c) 2024, The Blockbone Project Authors (<a href="https://github.com/mitradranirban/blockbone">https://github.com/mitradranirban/blockbone</a>)&quot;</p>
- [code: bad-notice-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check font names are correct <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-names">googlefonts/font_names</a></summary>
     <div>
 
 
@@ -218,7 +144,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 <tbody>
 <tr>
 <td align="left">Family Name</td>
-<td align="left"><strong>BlockBone Serif</strong></td>
+<td align="left"><strong>BlockBone Regular</strong></td>
 <td align="left"><strong>BlockBone</strong></td>
 </tr>
 <tr>
@@ -228,12 +154,12 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </tr>
 <tr>
 <td align="left">Full Name</td>
-<td align="left"><strong>BlockBone Serif</strong></td>
-<td align="left"><strong>BlockBone Regular</strong></td>
+<td align="left">BlockBone Regular</td>
+<td align="left">BlockBone Regular</td>
 </tr>
 <tr>
 <td align="left">Postscript Name</td>
-<td align="left"><strong>BlockBoneSerif</strong></td>
+<td align="left"><strong>Blockbone-Regular</strong></td>
 <td align="left"><strong>BlockBone-Regular</strong></td>
 </tr>
 <tr>
@@ -243,7 +169,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </tr>
 <tr>
 <td align="left">Typographic Subfamily Name</td>
-<td align="left"><strong>Serif</strong></td>
+<td align="left"><strong>Regular</strong></td>
 <td align="left"><strong>N/A</strong></td>
 </tr>
 </tbody>
@@ -256,27 +182,7 @@ For Google Fonts, all messages from this check are considered FAILs.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 4 meaning that:
-The font may be embedded, and temporarily loaded on the remote system, but documents that use it must not be editable.</p>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
     <div>
 
 
@@ -286,10 +192,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 
 
 * 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0020 (SPACE)
-
-
-- 0x0021 (EXCLAMATION MARK)
+<pre><code>- 0x0021 (EXCLAMATION MARK)
 
 
 - 0x0022 (QUOTATION MARK)
@@ -385,15 +288,6 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 - 0x0040 (COMMERCIAL AT)
 
 
-- 0x0042 (LATIN CAPITAL LETTER B)
-
-
-- 0x0043 (LATIN CAPITAL LETTER C)
-
-
-- 0x0044 (LATIN CAPITAL LETTER D)
-
-
 - 0x0045 (LATIN CAPITAL LETTER E)
 
 
@@ -476,15 +370,6 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 
 
 - 0x0060 (GRAVE ACCENT)
-
-
-- 0x0062 (LATIN SMALL LETTER B)
-
-
-- 0x0063 (LATIN SMALL LETTER C)
-
-
-- 0x0064 (LATIN SMALL LETTER D)
 
 
 - 0x0065 (LATIN SMALL LETTER E)
@@ -1244,7 +1129,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.name.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
     <div>
 
 
@@ -1253,7 +1138,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 
 
 
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. Current version string is: &quot;Version 0.001&quot;</p>
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.001&quot;</p>
  [code: bad-version-strings]
 
 
@@ -1262,7 +1147,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.glyphset.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Ensure font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-render-own-name">googlefonts/render_own_name</a></summary>
     <div>
 
 
@@ -1271,7 +1156,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 
 
 
-* 🔥 **FAIL** <p>.notdef glyphs were found when attempting to render BlockBone Serif</p>
+* 🔥 **FAIL** <p>.notdef glyphs were found when attempting to render BlockBone Regular</p>
  [code: render-own-name]
 
 
@@ -1280,7 +1165,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.vmetrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
     <div>
 
 
@@ -1289,13 +1174,8 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 
 
 
-* 🔥 **FAIL** <p>OS/2.sTypoLineGap is &quot;200&quot; it should be 0</p>
- [code: bad-OS/2.sTypoLineGap]
-
-
-
-* 🔥 **FAIL** <p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 780 when it should be at least 1200</p>
- [code: bad-hhea-range]
+* 🔥 **FAIL** <p>The hhea descender must be negative or zero. This font has a strictly positive value.</p>
+ [code: hhea-descent]
 
 
 
@@ -1303,7 +1183,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.gpos.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
     <div>
 
 
@@ -1321,7 +1201,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Detect any interpolation issues in the font. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#interpolation-issues">interpolation_issues</a></summary>
     <div>
 
 
@@ -1331,7 +1211,11 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 42 in glyph 'A' has a kink between location wght=400 and location wght=900
+<pre><code>- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
 
@@ -1341,7 +1225,25 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-avar-table">mandatory_avar_table</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This variable font does not have an avar table. Most variable fonts should include an avar table to correctly define axes progression rates.</p>
+ [code: missing-avar]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -1359,7 +1261,7 @@ The font may be embedded, and temporarily loaded on the remote system, but docum
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -1374,8 +1276,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, math, nushu, symbols</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, math, nushu, symbols</li>
+<li>U+0020 SPACE: try adding one of: mahajani, meroitic, todhri, meroitic-hieroglyphs, osage, bassa-vah, takri, tangut, chakma, cyrillic, inscriptional-pahlavi, buhid, meetei-mayek, thaana, ahom, cherokee, braille, cypriot, tifinagh, gurung-khema, dogra, marchen, old-italic, mayan-numerals, mongolian, makasar, vithkuqi, gunjala-gondi, pau-cin-hau, yezidi, mandaic, khitan-small-script, mende-kikakui, bengali, cyrillic-ext, japanese, zanabazar-square, sinhala, linear-b, lisu, sogdian, syloti-nagri, khojki, linear-a, math, arabic, cham, chinese-traditional, warang-citi, cuneiform, batak, znamenny, shavian, dives-akuru, phags-pa, tamil-supplement, old-turkic, ol-chiki, nushu, yi, ethiopic, deseret, nyiakeng-puachue-hmong, carian, chinese-simplified, sharada, avestan, cypro-minoan, tirhuta, georgian, sundanese, canadian-aboriginal, kaithi, lydian, osmanya, psalter-pahlavi, nag-mundari, chinese-hongkong, tagbanwa, soyombo, gujarati, kayah-li, kharoshthi, kirat-rai, greek, multani, oriya, nabataean, sunuwar, latin-ext, signwriting, anatolian-hieroglyphs, old-sogdian, tamil, old-south-arabian, balinese, symbols, lao, gurmukhi, tulu-tigalari, limbu, hanunoo, phoenician, miao, sora-sompeng, hanifi-rohingya, korean, kawi, javanese, malayalam, garay, duployan, greek-ext, old-north-arabian, saurashtra, nandinagari, tangsa, glagolitic, lycian, syriac, elymaic, hatran, ugaritic, imperial-aramaic, modi, grantha, symbols2, old-persian, rejang, myanmar, inscriptional-parthian, elbasan, ol-onal, latin, devanagari, old-uyghur, khudawadi, music, vai, kannada, masaram-gondi, old-permic, tai-tham, bamum, new-tai-lue, caucasian-albanian, lepcha, runic, siddham, bhaiksuki, egyptian-hieroglyphs, gothic, thai, manichaean, nko, kana-extended, tai-le, tai-viet, palmyrene, hebrew, tibetan, pahawh-hmong, chorasmian, indic-siyaq-numbers, telugu, newa, buginese, medefaidrin, toto, ottoman-siyaq-numbers, old-hungarian, adlam, samaritan, brahmi, ogham, tagalog, armenian, vietnamese, wancho, mro, coptic, meroitic-cursive</li>
+<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0061 LATIN SMALL LETTER A: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0062 LATIN SMALL LETTER B: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0063 LATIN SMALL LETTER C: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0064 LATIN SMALL LETTER D: try adding one of: symbols, math, latin, nushu</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
  [code: unreachable-subsetting]
@@ -1386,7 +1295,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
     <div>
 
 
@@ -1400,9 +1309,23 @@ definitions.</p>
 
 * A (U+0041): X=459.0,Y=-2.0 (should be at baseline 0?)
 
-* a (U+0061): X=173.0,Y=-0.5 (should be at baseline 0?)
+* B (U+0042): X=148.0,Y=702.0 (should be at cap-height 700?)
 
-* a (U+0061): X=386.5,Y=498.0 (should be at x-height 500?)
+* B (U+0042): X=457.0,Y=-1.0 (should be at baseline 0?)
+
+* B (U+0042): X=501.0,Y=1.0 (should be at baseline 0?)
+
+* C (U+0043): X=741.0,Y=2.0 (should be at baseline 0?)
+
+* D (U+0044): X=258.0,Y=2.0 (should be at baseline 0?)
+
+* D (U+0044): X=41.0,Y=2.0 (should be at baseline 0?)
+
+* a (U+0061): X=396.0,Y=-2.0 (should be at baseline 0?)
+
+* c (U+0063): X=219.0,Y=-1.0 (should be at baseline 0?)
+
+* c (U+0063): X=175.0,Y=502.0 (should be at x-height 500?)
 </code></pre>
  [code: found-misalignments]
 
@@ -1412,7 +1335,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
     <div>
 
 
@@ -1424,7 +1347,11 @@ definitions.</p>
 * ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
 <pre><code>* A (U+0041) has a counter-clockwise outer contour
 
-* a (U+0061) has a counter-clockwise outer contour
+* B (U+0042) has a counter-clockwise outer contour
+
+* b (U+0062) has a counter-clockwise outer contour
+
+* d (U+0064) has a counter-clockwise outer contour
 </code></pre>
  [code: ccw-outer-contour]
 
@@ -1434,25 +1361,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure variable fonts include an avar table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.varfont.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This variable font does not have an avar table.</p>
- [code: missing-avar]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -1468,31 +1377,13 @@ definitions.</p>
 
 </div>
 </details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at <a href="https://www.microsoft.com/typography/links/vendorlist.aspx">https://www.microsoft.com/typography/links/vendorlist.aspx</a></p>
- [code: unknown]
-
-
-
-</div>
-</details>
 </div>
 </details>
 
 <details><summary>[1] Family checks</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.os2.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-use-typo-metrics">googlefonts/use_typo_metrics</a></summary>
     <div>
 
 
@@ -1501,7 +1392,7 @@ definitions.</p>
 
 
 
-* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/variable/BlockBone[wght].ttf'].</p>
+* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/variable/Blockbone[wght].ttf'].</p>
  [code: missing-os2-fsselection-bit7]
 
 
@@ -1518,8 +1409,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 16 | 9 | 104 | 8 | 114 | 0 | 
-| 0% | 0% | 6% | 4% | 41% | 3% | 45% | 0% | 
+| 0 | 0 | 12 | 8 | 95 | 7 | 116 | 0 | 
+| 0% | 0% | 5% | 3% | 40% | 3% | 49% | 0% | 
 
 
 
