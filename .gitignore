@@ -3,6 +3,7 @@ venv
 venv-test
 build.stamp
 proof
+proof2
 fonts
 node_modules
 package-lock.json
@@ -11,6 +12,9 @@ master_ufo
 instance_ufos
 .ninja_log
 build.ninja
+master_otf
+master_ttf
+variable_ttf
 
 # OS generated files #
 ######################
@@ -22,19 +26,4 @@ build.ninja
 ehthumbs.db
 Thumbs.db
 
-# Autosaved by application when editing
-######################
-*(تم الحفظ تلقائيًا).*
-*(automaticky uloženo).*
-*(Automatisch gesichert).*
-*(Autosaved).*
-*(guardado automáticamente).*
-*(enregistré automatiquement).*
-*(salvato automaticamente).*
-*（自動保存）.*
-*(자동 저장됨).*
-*(Salvo Automaticamente).*
-*(Автосохранение).*
-*(Otomatik Kaydedildi).*
-*（自动存储）.*
-*（已自動儲存）.*
+

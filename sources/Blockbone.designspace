@@ -15,12 +15,12 @@
     </axis>
   </axes>
   <sources>
-    <source filename="BlockBoneSerif.ufo" name="::fontra000-9f929db6" familyname="BlockBone" stylename="Regular">
+    <source filename="Blockbone-Regular.ufo" familyname="Blockbone" stylename="Regular">
       <location>
         <dimension name="weight" xvalue="400"/>
       </location>
     </source>
-    <source filename="BlockBoneBlock.ufo" name="::fontra001-cadfb8e4" familyname="BlockBone" stylename="Black">
+    <source filename="Blockbone-Black.ufo" familyname="Blockbone" stylename="Black">
       <location>
         <dimension name="weight" xvalue="900"/>
       </location>
