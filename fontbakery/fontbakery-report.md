@@ -1,6 +1,6 @@
 ## FontBakery report
 
-fontbakery version: 0.13.0
+fontbakery version: 0.13.1
 
 
 
@@ -1211,9 +1211,9 @@ fontbakery version: 0.13.0
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
+<pre><code>- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
 
-- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
 </code></pre>
@@ -1276,15 +1276,15 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+0020 SPACE: try adding one of: mahajani, meroitic, todhri, meroitic-hieroglyphs, osage, bassa-vah, takri, tangut, chakma, cyrillic, inscriptional-pahlavi, buhid, meetei-mayek, thaana, ahom, cherokee, braille, cypriot, tifinagh, gurung-khema, dogra, marchen, old-italic, mayan-numerals, mongolian, makasar, vithkuqi, gunjala-gondi, pau-cin-hau, yezidi, mandaic, khitan-small-script, mende-kikakui, bengali, cyrillic-ext, japanese, zanabazar-square, sinhala, linear-b, lisu, sogdian, syloti-nagri, khojki, linear-a, math, arabic, cham, chinese-traditional, warang-citi, cuneiform, batak, znamenny, shavian, dives-akuru, phags-pa, tamil-supplement, old-turkic, ol-chiki, nushu, yi, ethiopic, deseret, nyiakeng-puachue-hmong, carian, chinese-simplified, sharada, avestan, cypro-minoan, tirhuta, georgian, sundanese, canadian-aboriginal, kaithi, lydian, osmanya, psalter-pahlavi, nag-mundari, chinese-hongkong, tagbanwa, soyombo, gujarati, kayah-li, kharoshthi, kirat-rai, greek, multani, oriya, nabataean, sunuwar, latin-ext, signwriting, anatolian-hieroglyphs, old-sogdian, tamil, old-south-arabian, balinese, symbols, lao, gurmukhi, tulu-tigalari, limbu, hanunoo, phoenician, miao, sora-sompeng, hanifi-rohingya, korean, kawi, javanese, malayalam, garay, duployan, greek-ext, old-north-arabian, saurashtra, nandinagari, tangsa, glagolitic, lycian, syriac, elymaic, hatran, ugaritic, imperial-aramaic, modi, grantha, symbols2, old-persian, rejang, myanmar, inscriptional-parthian, elbasan, ol-onal, latin, devanagari, old-uyghur, khudawadi, music, vai, kannada, masaram-gondi, old-permic, tai-tham, bamum, new-tai-lue, caucasian-albanian, lepcha, runic, siddham, bhaiksuki, egyptian-hieroglyphs, gothic, thai, manichaean, nko, kana-extended, tai-le, tai-viet, palmyrene, hebrew, tibetan, pahawh-hmong, chorasmian, indic-siyaq-numbers, telugu, newa, buginese, medefaidrin, toto, ottoman-siyaq-numbers, old-hungarian, adlam, samaritan, brahmi, ogham, tagalog, armenian, vietnamese, wancho, mro, coptic, meroitic-cursive</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: symbols, math, latin, nushu</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: symbols, math, latin, nushu</li>
+<li>U+0020 SPACE: try adding one of: inscriptional-parthian, tamil-supplement, nko, grantha, nushu, sundanese, tai-le, deseret, old-south-arabian, gurung-khema, nabataean, osmanya, syriac, khudawadi, braille, vithkuqi, masaram-gondi, tagbanwa, lydian, meroitic, arabic, pau-cin-hau, gothic, ogham, old-uyghur, garay, thai, yezidi, balinese, duployan, bamum, imperial-aramaic, siddham, cyrillic-ext, chinese-simplified, greek-ext, cherokee, old-north-arabian, khitan-small-script, caucasian-albanian, batak, old-hungarian, telugu, avestan, math, gurmukhi, tulu-tigalari, zanabazar-square, inscriptional-pahlavi, lisu, chorasmian, old-persian, canadian-aboriginal, bassa-vah, tai-viet, psalter-pahlavi, dives-akuru, tai-tham, dogra, georgian, kawi, signwriting, bhaiksuki, ol-onal, syloti-nagri, cypriot, malayalam, javanese, mayan-numerals, miao, sunuwar, sinhala, meroitic-hieroglyphs, ottoman-siyaq-numbers, symbols, mongolian, bengali, sogdian, tirhuta, sharada, coptic, japanese, yi, nyiakeng-puachue-hmong, palmyrene, sora-sompeng, tangsa, latin, tamil, cypro-minoan, manichaean, chakma, mandaic, lepcha, soyombo, kana-extended, ahom, hanifi-rohingya, carian, medefaidrin, music, old-sogdian, runic, symbols2, wancho, oriya, old-permic, ol-chiki, limbu, tibetan, meroitic-cursive, buhid, mende-kikakui, multani, adlam, ethiopic, toto, linear-b, new-tai-lue, greek, kirat-rai, vietnamese, lao, thaana, phoenician, newa, old-turkic, old-italic, shavian, samaritan, hatran, anatolian-hieroglyphs, korean, cham, brahmi, chinese-hongkong, tifinagh, mahajani, warang-citi, nandinagari, egyptian-hieroglyphs, tangut, makasar, ugaritic, cuneiform, gunjala-gondi, vai, pahawh-hmong, buginese, kaithi, chinese-traditional, lycian, modi, saurashtra, cyrillic, meetei-mayek, latin-ext, kharoshthi, linear-a, myanmar, todhri, rejang, hebrew, khojki, elymaic, takri, glagolitic, osage, phags-pa, nag-mundari, indic-siyaq-numbers, armenian, elbasan, znamenny, gujarati, mro, devanagari, kannada, hanunoo, tagalog, marchen, kayah-li</li>
+<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0061 LATIN SMALL LETTER A: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0062 LATIN SMALL LETTER B: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0063 LATIN SMALL LETTER C: try adding one of: nushu, math, symbols, latin</li>
+<li>U+0064 LATIN SMALL LETTER D: try adding one of: nushu, math, symbols, latin</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
  [code: unreachable-subsetting]
@@ -1409,8 +1409,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 12 | 8 | 95 | 7 | 116 | 0 | 
-| 0% | 0% | 5% | 3% | 40% | 3% | 49% | 0% | 
+| 0 | 0 | 12 | 8 | 95 | 7 | 114 | 0 | 
+| 0% | 0% | 5% | 3% | 40% | 3% | 48% | 0% | 
 
 
 
