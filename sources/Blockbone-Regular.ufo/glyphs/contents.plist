@@ -10,6 +10,14 @@
     <string>C_.glif</string>
     <key>D</key>
     <string>D_.glif</string>
+    <key>E</key>
+    <string>E_.glif</string>
+    <key>F</key>
+    <string>F_.glif</string>
+    <key>G</key>
+    <string>G_.glif</string>
+    <key>H</key>
+    <string>H_.glif</string>
     <key>a</key>
     <string>a.glif</string>
     <key>b</key>
@@ -18,6 +26,14 @@
     <string>c.glif</string>
     <key>d</key>
     <string>d.glif</string>
+    <key>e</key>
+    <string>e.glif</string>
+    <key>f</key>
+    <string>f.glif</string>
+    <key>g</key>
+    <string>g.glif</string>
+    <key>h</key>
+    <string>h.glif</string>
     <key>space</key>
     <string>space.glif</string>
   </dict>
