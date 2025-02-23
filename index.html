@@ -12,11 +12,20 @@
     
     font-style: normal;
 }
-h3 {
-  font-family: 'BlockBone', serif;
+.bone {
+  font-family: 'BlockBone',  serif;
   font-size: 50px;
   font-weight: 400;
 } 
+.block {
+  font-family: 'BlockBone', sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+} 
+h1 { font-family: Helvetica, Arial, sans-serif;
+     font-size: 50px;
+     font-weight: 400;
+}
 @keyframes animate-type {
   0% {
     font-variation-settings: "wght" 400;
@@ -28,14 +37,17 @@ h3 {
     color:black;
   }
 }
-h3 {
-  animation: animate-type 5s infinite alternate;
+.variable {
+  font-family: 'BlockBone';
+  font-size: 50px;
+  font-weight: 400;
+  animation: animate-type 3s infinite alternate;
 }
 
 		</style>
 	</head>
 	<body>
-		<h3>BlockBone A Variable Font alternating between Serif and Blackletter</h3>
+		<h1><span class="block">Block</span><span class="bone">Bone</span> A <span class="variable">Variable Font </span><br/> alternating between <span class="bone">Serif</span> and <span class="block">Blackletter</span></h1>
 		<ul>
 			<li>
 				<a href="fontbakery/fontbakery-report.html">FontBakery Report</a>
