@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[19] Blockbone[wght].ttf</summary>
+<details><summary>[18] Blockbone[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
@@ -42,7 +42,7 @@ fontbakery version: 0.13.2
 
 
 
-* 🔥 **FAIL** <p>OS/2 sTypoDescender (-200) and hhea descent (300) must be equal.</p>
+* 🔥 **FAIL** <p>OS/2 sTypoDescender (-300) and hhea descent (300) must be equal.</p>
  [code: descender]
 
 
@@ -201,9 +201,6 @@ fontbakery version: 0.13.2
 - 0x0023 (NUMBER SIGN)
 
 
-- 0x0024 (DOLLAR SIGN)
-
-
 - 0x0025 (PERCENT SIGN)
 
 
@@ -231,40 +228,7 @@ fontbakery version: 0.13.2
 - 0x002D (HYPHEN-MINUS)
 
 
-- 0x002E (FULL STOP)
-
-
 - 0x002F (SOLIDUS)
-
-
-- 0x0030 (DIGIT ZERO)
-
-
-- 0x0031 (DIGIT ONE)
-
-
-- 0x0032 (DIGIT TWO)
-
-
-- 0x0033 (DIGIT THREE)
-
-
-- 0x0034 (DIGIT FOUR)
-
-
-- 0x0035 (DIGIT FIVE)
-
-
-- 0x0036 (DIGIT SIX)
-
-
-- 0x0037 (DIGIT SEVEN)
-
-
-- 0x0038 (DIGIT EIGHT)
-
-
-- 0x0039 (DIGIT NINE)
 
 
 - 0x003A (COLON)
@@ -286,30 +250,6 @@ fontbakery version: 0.13.2
 
 
 - 0x0040 (COMMERCIAL AT)
-
-
-- 0x0050 (LATIN CAPITAL LETTER P)
-
-
-- 0x0051 (LATIN CAPITAL LETTER Q)
-
-
-- 0x0052 (LATIN CAPITAL LETTER R)
-
-
-- 0x0053 (LATIN CAPITAL LETTER S)
-
-
-- 0x0054 (LATIN CAPITAL LETTER T)
-
-
-- 0x0055 (LATIN CAPITAL LETTER U)
-
-
-- 0x0056 (LATIN CAPITAL LETTER V)
-
-
-- 0x0057 (LATIN CAPITAL LETTER W)
 
 
 - 0x0058 (LATIN CAPITAL LETTER X)
@@ -337,30 +277,6 @@ fontbakery version: 0.13.2
 
 
 - 0x0060 (GRAVE ACCENT)
-
-
-- 0x0070 (LATIN SMALL LETTER P)
-
-
-- 0x0071 (LATIN SMALL LETTER Q)
-
-
-- 0x0072 (LATIN SMALL LETTER R)
-
-
-- 0x0073 (LATIN SMALL LETTER S)
-
-
-- 0x0074 (LATIN SMALL LETTER T)
-
-
-- 0x0075 (LATIN SMALL LETTER U)
-
-
-- 0x0076 (LATIN SMALL LETTER V)
-
-
-- 0x0077 (LATIN SMALL LETTER W)
 
 
 - 0x0078 (LATIN SMALL LETTER X)
@@ -1047,9 +963,6 @@ fontbakery version: 0.13.2
 - 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
 
 
-- 0x20AC (EURO SIGN)
-
-
 - 0x2122 (TRADE MARK SIGN)
 
 
@@ -1074,24 +987,6 @@ fontbakery version: 0.13.2
 
 * 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.001&quot;</p>
  [code: bad-version-strings]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Ensure font can render its own name. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-render-own-name">googlefonts/render_own_name</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>.notdef glyphs were found when attempting to render BlockBone Regular</p>
- [code: render-own-name]
 
 
 
@@ -1145,13 +1040,25 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+<pre><code>- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
 
 - Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
 
+- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+
 - Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
 
+- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+
 - Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'T': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
 </code></pre>
  [code: interpolation-issues]
 
@@ -1179,6 +1086,26 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* R (U+0052): L&lt;&lt;260.0,414.0&gt;--&lt;261.0,365.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
@@ -1190,62 +1117,6 @@ fontbakery version: 0.13.2
 
 * ⚠️ **WARN** <p>Family metadata at fonts/variable does not have an article.</p>
  [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
-any subsets defined in the font's metadata file, and will never
-be served. You can solve this by either manually adding additional
-subset declarations to METADATA.pb, or by editing the glyphset
-definitions.</p>
-<ul>
-<li>U+0020 SPACE: try adding one of: wancho, sunuwar, myanmar, kharoshthi, mahajani, shavian, tagbanwa, buginese, gothic, linear-b, gunjala-gondi, medefaidrin, nag-mundari, linear-a, chakma, japanese, kirat-rai, music, meroitic, meetei-mayek, soyombo, znamenny, old-south-arabian, korean, arabic, thai, ugaritic, takri, gurmukhi, new-tai-lue, yezidi, ethiopic, cyrillic, braille, duployan, limbu, hanifi-rohingya, ogham, old-north-arabian, egyptian-hieroglyphs, malayalam, signwriting, cypriot, sharada, tibetan, symbols, pahawh-hmong, mandaic, brahmi, cherokee, chinese-simplified, elymaic, thaana, todhri, tangut, latin, greek, sundanese, grantha, kannada, vai, tirhuta, nushu, saurashtra, toto, adlam, psalter-pahlavi, bamum, dogra, elbasan, anatolian-hieroglyphs, greek-ext, hatran, ol-onal, old-permic, oriya, telugu, tulu-tigalari, warang-citi, latin-ext, old-italic, tagalog, meroitic-cursive, canadian-aboriginal, kaithi, vithkuqi, tai-tham, bhaiksuki, coptic, kana-extended, batak, lycian, cuneiform, old-turkic, indic-siyaq-numbers, kayah-li, osage, mongolian, balinese, bengali, masaram-gondi, nabataean, cyrillic-ext, phoenician, pau-cin-hau, tangsa, cham, buhid, ottoman-siyaq-numbers, gurung-khema, chorasmian, kawi, math, mayan-numerals, tifinagh, khojki, sogdian, tai-le, georgian, lao, chinese-hongkong, syriac, old-uyghur, inscriptional-parthian, nandinagari, hanunoo, garay, carian, syloti-nagri, tai-viet, armenian, khitan-small-script, imperial-aramaic, javanese, samaritan, hebrew, phags-pa, lydian, sinhala, marchen, avestan, deseret, yi, palmyrene, glagolitic, gujarati, inscriptional-pahlavi, cypro-minoan, khudawadi, makasar, tamil-supplement, newa, zanabazar-square, siddham, caucasian-albanian, nko, old-sogdian, manichaean, modi, bassa-vah, meroitic-hieroglyphs, miao, sora-sompeng, vietnamese, multani, old-persian, mende-kikakui, symbols2, old-hungarian, rejang, lepcha, lisu, dives-akuru, tamil, ahom, devanagari, mro, nyiakeng-puachue-hmong, runic, ol-chiki, osmanya, chinese-traditional</li>
-<li>U+0041 LATIN CAPITAL LETTER A: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0042 LATIN CAPITAL LETTER B: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0043 LATIN CAPITAL LETTER C: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0044 LATIN CAPITAL LETTER D: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0045 LATIN CAPITAL LETTER E: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0046 LATIN CAPITAL LETTER F: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0047 LATIN CAPITAL LETTER G: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0048 LATIN CAPITAL LETTER H: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0049 LATIN CAPITAL LETTER I: try adding one of: latin, nushu, math, symbols</li>
-<li>U+004A LATIN CAPITAL LETTER J: try adding one of: latin, nushu, math, symbols</li>
-<li>U+004B LATIN CAPITAL LETTER K: try adding one of: latin, nushu, math, symbols</li>
-<li>U+004C LATIN CAPITAL LETTER L: try adding one of: latin, nushu, math, symbols</li>
-<li>U+004D LATIN CAPITAL LETTER M: try adding one of: latin, nushu, math, symbols</li>
-<li>U+004E LATIN CAPITAL LETTER N: try adding one of: latin, nushu, math, symbols</li>
-<li>U+004F LATIN CAPITAL LETTER O: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0061 LATIN SMALL LETTER A: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0062 LATIN SMALL LETTER B: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0063 LATIN SMALL LETTER C: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0064 LATIN SMALL LETTER D: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0065 LATIN SMALL LETTER E: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0066 LATIN SMALL LETTER F: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0067 LATIN SMALL LETTER G: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0068 LATIN SMALL LETTER H: try adding one of: latin, nushu, math, symbols</li>
-<li>U+0069 LATIN SMALL LETTER I: try adding one of: latin, nushu, math, symbols</li>
-<li>U+006A LATIN SMALL LETTER J: try adding one of: latin, nushu, math, symbols</li>
-<li>U+006B LATIN SMALL LETTER K: try adding one of: latin, nushu, math, symbols</li>
-<li>U+006C LATIN SMALL LETTER L: try adding one of: latin, nushu, math, symbols</li>
-<li>U+006D LATIN SMALL LETTER M: try adding one of: latin, nushu, math, symbols</li>
-<li>U+006E LATIN SMALL LETTER N: try adding one of: latin, nushu, math, symbols</li>
-<li>U+006F LATIN SMALL LETTER O: try adding one of: latin, nushu, math, symbols</li>
-</ul>
-<p>Or you can add the above codepoints to one of the subsets supported by the font:</p>
- [code: unreachable-subsetting]
 
 
 
@@ -1301,10 +1172,6 @@ definitions.</p>
 
 * I (U+0049): X=139.0,Y=698.0 (should be at cap-height 700?)
 
-* J (U+004A): X=-101.0,Y=-198.0 (should be at descender -200?)
-
-* J (U+004A): X=95.0,Y=-201.0 (should be at descender -200?)
-
 * K (U+004B): X=272.0,Y=699.0 (should be at cap-height 700?)
 
 * K (U+004B): X=624.0,Y=702.0 (should be at cap-height 700?)
@@ -1333,6 +1200,20 @@ definitions.</p>
 
 * O (U+004F): X=595.0,Y=699.0 (should be at cap-height 700?)
 
+* Q (U+0051): X=636.0,Y=1.0 (should be at baseline 0?)
+
+* Q (U+0051): X=584.0,Y=698.0 (should be at cap-height 700?)
+
+* R (U+0052): X=402.0,Y=-1.0 (should be at baseline 0?)
+
+* S (U+0053): X=413.0,Y=2.0 (should be at baseline 0?)
+
+* S (U+0053): X=526.0,Y=698.0 (should be at cap-height 700?)
+
+* U (U+0055): X=531.0,Y=-1.0 (should be at baseline 0?)
+
+* U (U+0055): X=322.5,Y=1.5 (should be at baseline 0?)
+
 * a (U+0061): X=396.0,Y=-2.0 (should be at baseline 0?)
 
 * c (U+0063): X=219.0,Y=-1.0 (should be at baseline 0?)
@@ -1340,6 +1221,12 @@ definitions.</p>
 * c (U+0063): X=175.0,Y=502.0 (should be at x-height 500?)
 
 * e (U+0065): X=389.0,Y=-2.0 (should be at baseline 0?)
+
+* euro (U+20AC): X=343.0,Y=699.0 (should be at cap-height 700?)
+
+* euro (U+20AC): X=643.0,Y=2.0 (should be at baseline 0?)
+
+* euro (U+20AC): X=611.0,Y=2.0 (should be at baseline 0?)
 
 * f (U+0066): X=390.0,Y=498.0 (should be at x-height 500?)
 
@@ -1400,6 +1287,30 @@ definitions.</p>
 * m (U+006D): X=34.0,Y=501.0 (should be at x-height 500?)
 
 * o (U+006F): X=476.0,Y=498.0 (should be at x-height 500?)
+
+* one (U+0031): X=72.0,Y=699.0 (should be at cap-height 700?)
+
+* one (U+0031): X=134.0,Y=698.0 (should be at cap-height 700?)
+
+* one (U+0031): X=74.0,Y=-1.0 (should be at baseline 0?)
+
+* p (U+0070): X=18.0,Y=498.0 (should be at x-height 500?)
+
+* p (U+0070): X=302.0,Y=-2.0 (should be at baseline 0?)
+
+* r (U+0072): X=39.0,Y=-1.0 (should be at baseline 0?)
+
+* s (U+0073): X=223.0,Y=499.0 (should be at x-height 500?)
+
+* s (U+0073): X=174.5,Y=-1.5 (should be at baseline 0?)
+
+* t (U+0074): X=298.0,Y=-1.0 (should be at baseline 0?)
+
+* two (U+0032): X=108.0,Y=699.5 (should be at cap-height 700?)
+
+* u (U+0075): X=648.0,Y=1.0 (should be at baseline 0?)
+
+* v (U+0076): X=4.5,Y=499.5 (should be at x-height 500?)
 </code></pre>
  [code: found-misalignments]
 
@@ -1428,6 +1339,10 @@ definitions.</p>
 * d (U+0064) has a counter-clockwise outer contour
 
 * i (U+0069) has a counter-clockwise outer contour
+
+* one (U+0031) has a counter-clockwise outer contour
+
+* p (U+0070) has a counter-clockwise outer contour
 </code></pre>
  [code: ccw-outer-contour]
 
@@ -1485,8 +1400,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 12 | 8 | 95 | 7 | 114 | 0 | 
-| 0% | 0% | 5% | 3% | 40% | 3% | 48% | 0% | 
+| 0 | 0 | 11 | 8 | 95 | 7 | 115 | 0 | 
+| 0% | 0% | 5% | 3% | 40% | 3% | 49% | 0% | 
 
 
 
