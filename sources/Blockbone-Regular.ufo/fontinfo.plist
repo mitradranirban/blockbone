@@ -70,7 +70,7 @@ This license is available with a FAQ at: https://openfontlicence.org
     <key>openTypeOS2TypoAscender</key>
     <integer>1200</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-200</integer>
+    <integer>-300</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
