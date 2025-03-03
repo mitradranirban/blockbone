@@ -12,7 +12,7 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[18] Blockbone[wght].ttf</summary>
+<details><summary>[15] Blockbone[wght].ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
@@ -26,24 +26,6 @@ fontbakery version: 0.13.2
 
 * 🔥 **FAIL** <p>'Regular' instance has the same coordinates as the default instance; its postscript name should be 'Blockbone-Regular', instead of 'BlockBone-Regular'.</p>
  [code: invalid-default-instance-postscript-name]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoDescender (-300) and hhea descent (300) must be equal.</p>
- [code: descender]
 
 
 
@@ -252,15 +234,6 @@ fontbakery version: 0.13.2
 - 0x0040 (COMMERCIAL AT)
 
 
-- 0x0058 (LATIN CAPITAL LETTER X)
-
-
-- 0x0059 (LATIN CAPITAL LETTER Y)
-
-
-- 0x005A (LATIN CAPITAL LETTER Z)
-
-
 - 0x005B (LEFT SQUARE BRACKET)
 
 
@@ -277,15 +250,6 @@ fontbakery version: 0.13.2
 
 
 - 0x0060 (GRAVE ACCENT)
-
-
-- 0x0078 (LATIN SMALL LETTER X)
-
-
-- 0x0079 (LATIN SMALL LETTER Y)
-
-
-- 0x007A (LATIN SMALL LETTER Z)
 
 
 - 0x007B (LEFT CURLY BRACKET)
@@ -985,26 +949,8 @@ fontbakery version: 0.13.2
 
 
 
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.001&quot;</p>
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.200&quot;</p>
  [code: bad-version-strings]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The hhea descender must be negative or zero. This font has a strictly positive value.</p>
- [code: hhea-descent]
 
 
 
@@ -1040,25 +986,31 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
+<pre><code>- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
 
-- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
-
-- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'T': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'z': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 39 in glyph 'z' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
 </code></pre>
  [code: interpolation-issues]
 
@@ -1117,202 +1069,6 @@ fontbakery version: 0.13.2
 
 * ⚠️ **WARN** <p>Family metadata at fonts/variable does not have an article.</p>
  [code: lacks-article]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Are there any misaligned on-curve points? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-alignment-miss">outline_alignment_miss</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>The following glyphs have on-curve points which have potentially incorrect y coordinates:</p>
-<pre><code>* A (U+0041): X=6.0,Y=2.0 (should be at baseline 0?)
-
-* A (U+0041): X=459.0,Y=-2.0 (should be at baseline 0?)
-
-* B (U+0042): X=148.0,Y=702.0 (should be at cap-height 700?)
-
-* B (U+0042): X=457.0,Y=-1.0 (should be at baseline 0?)
-
-* B (U+0042): X=501.0,Y=1.0 (should be at baseline 0?)
-
-* C (U+0043): X=741.0,Y=2.0 (should be at baseline 0?)
-
-* D (U+0044): X=258.0,Y=2.0 (should be at baseline 0?)
-
-* D (U+0044): X=41.0,Y=2.0 (should be at baseline 0?)
-
-* E (U+0045): X=384.0,Y=1.0 (should be at baseline 0?)
-
-* F (U+0046): X=542.0,Y=702.0 (should be at cap-height 700?)
-
-* F (U+0046): X=260.0,Y=698.0 (should be at cap-height 700?)
-
-* F (U+0046): X=400.0,Y=1.0 (should be at baseline 0?)
-
-* F (U+0046): X=282.0,Y=-1.0 (should be at baseline 0?)
-
-* G (U+0047): X=572.0,Y=701.0 (should be at cap-height 700?)
-
-* H (U+0048): X=783.0,Y=702.0 (should be at cap-height 700?)
-
-* H (U+0048): X=555.0,Y=-1.0 (should be at baseline 0?)
-
-* H (U+0048): X=45.0,Y=-1.0 (should be at baseline 0?)
-
-* I (U+0049): X=276.0,Y=699.0 (should be at cap-height 700?)
-
-* I (U+0049): X=139.0,Y=698.0 (should be at cap-height 700?)
-
-* K (U+004B): X=272.0,Y=699.0 (should be at cap-height 700?)
-
-* K (U+004B): X=624.0,Y=702.0 (should be at cap-height 700?)
-
-* K (U+004B): X=796.0,Y=1.0 (should be at baseline 0?)
-
-* K (U+004B): X=486.0,Y=1.0 (should be at baseline 0?)
-
-* K (U+004B): X=143.0,Y=699.0 (should be at cap-height 700?)
-
-* L (U+004C): X=142.0,Y=702.0 (should be at cap-height 700?)
-
-* L (U+004C): X=270.0,Y=698.0 (should be at cap-height 700?)
-
-* M (U+004D): X=950.0,Y=699.0 (should be at cap-height 700?)
-
-* M (U+004D): X=1042.0,Y=1.0 (should be at baseline 0?)
-
-* M (U+004D): X=719.0,Y=-1.0 (should be at baseline 0?)
-
-* N (U+004E): X=681.0,Y=699.0 (should be at cap-height 700?)
-
-* N (U+004E): X=768.0,Y=699.0 (should be at cap-height 700?)
-
-* N (U+004E): X=45.0,Y=1.0 (should be at baseline 0?)
-
-* O (U+004F): X=595.0,Y=699.0 (should be at cap-height 700?)
-
-* Q (U+0051): X=636.0,Y=1.0 (should be at baseline 0?)
-
-* Q (U+0051): X=584.0,Y=698.0 (should be at cap-height 700?)
-
-* R (U+0052): X=402.0,Y=-1.0 (should be at baseline 0?)
-
-* S (U+0053): X=413.0,Y=2.0 (should be at baseline 0?)
-
-* S (U+0053): X=526.0,Y=698.0 (should be at cap-height 700?)
-
-* U (U+0055): X=531.0,Y=-1.0 (should be at baseline 0?)
-
-* U (U+0055): X=322.5,Y=1.5 (should be at baseline 0?)
-
-* a (U+0061): X=396.0,Y=-2.0 (should be at baseline 0?)
-
-* c (U+0063): X=219.0,Y=-1.0 (should be at baseline 0?)
-
-* c (U+0063): X=175.0,Y=502.0 (should be at x-height 500?)
-
-* e (U+0065): X=389.0,Y=-2.0 (should be at baseline 0?)
-
-* euro (U+20AC): X=343.0,Y=699.0 (should be at cap-height 700?)
-
-* euro (U+20AC): X=643.0,Y=2.0 (should be at baseline 0?)
-
-* euro (U+20AC): X=611.0,Y=2.0 (should be at baseline 0?)
-
-* f (U+0066): X=390.0,Y=498.0 (should be at x-height 500?)
-
-* f (U+0066): X=332.0,Y=-1.0 (should be at baseline 0?)
-
-* f (U+0066): X=243.0,Y=-1.0 (should be at baseline 0?)
-
-* f (U+0066): X=187.0,Y=1.0 (should be at baseline 0?)
-
-* g (U+0067): X=251.0,Y=2.0 (should be at baseline 0?)
-
-* g (U+0067): X=294.0,Y=502.0 (should be at x-height 500?)
-
-* h (U+0068): X=206.0,Y=502.0 (should be at x-height 500?)
-
-* h (U+0068): X=269.0,Y=501.0 (should be at x-height 500?)
-
-* h (U+0068): X=289.0,Y=-1.0 (should be at baseline 0?)
-
-* h (U+0068): X=198.0,Y=1.0 (should be at baseline 0?)
-
-* h (U+0068): X=23.0,Y=1.0 (should be at baseline 0?)
-
-* i (U+0069): X=128.0,Y=702.0 (should be at cap-height 700?)
-
-* i (U+0069): X=30.0,Y=502.0 (should be at x-height 500?)
-
-* i (U+0069): X=32.0,Y=-1.0 (should be at baseline 0?)
-
-* i (U+0069): X=164.0,Y=-1.0 (should be at baseline 0?)
-
-* i (U+0069): X=271.0,Y=1.0 (should be at baseline 0?)
-
-* i (U+0069): X=228.0,Y=499.0 (should be at x-height 500?)
-
-* i (U+0069): X=30.0,Y=502.0 (should be at x-height 500?)
-
-* j (U+006A): X=128.0,Y=702.0 (should be at cap-height 700?)
-
-* j (U+006A): X=17.0,Y=502.0 (should be at x-height 500?)
-
-* k (U+006B): X=613.0,Y=-1.0 (should be at baseline 0?)
-
-* k (U+006B): X=462.0,Y=-1.0 (should be at baseline 0?)
-
-* k (U+006B): X=301.0,Y=1.0 (should be at baseline 0?)
-
-* k (U+006B): X=14.0,Y=1.0 (should be at baseline 0?)
-
-* l (U+006C): X=209.0,Y=498.0 (should be at x-height 500?)
-
-* m (U+006D): X=917.0,Y=502.0 (should be at x-height 500?)
-
-* m (U+006D): X=413.0,Y=1.0 (should be at baseline 0?)
-
-* m (U+006D): X=32.0,Y=2.0 (should be at baseline 0?)
-
-* m (U+006D): X=34.0,Y=501.0 (should be at x-height 500?)
-
-* o (U+006F): X=476.0,Y=498.0 (should be at x-height 500?)
-
-* one (U+0031): X=72.0,Y=699.0 (should be at cap-height 700?)
-
-* one (U+0031): X=134.0,Y=698.0 (should be at cap-height 700?)
-
-* one (U+0031): X=74.0,Y=-1.0 (should be at baseline 0?)
-
-* p (U+0070): X=18.0,Y=498.0 (should be at x-height 500?)
-
-* p (U+0070): X=302.0,Y=-2.0 (should be at baseline 0?)
-
-* r (U+0072): X=39.0,Y=-1.0 (should be at baseline 0?)
-
-* s (U+0073): X=223.0,Y=499.0 (should be at x-height 500?)
-
-* s (U+0073): X=174.5,Y=-1.5 (should be at baseline 0?)
-
-* t (U+0074): X=298.0,Y=-1.0 (should be at baseline 0?)
-
-* two (U+0032): X=108.0,Y=699.5 (should be at cap-height 700?)
-
-* u (U+0075): X=648.0,Y=1.0 (should be at baseline 0?)
-
-* v (U+0076): X=4.5,Y=499.5 (should be at x-height 500?)
-</code></pre>
- [code: found-misalignments]
 
 
 
@@ -1400,8 +1156,8 @@ fontbakery version: 0.13.2
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 11 | 8 | 95 | 7 | 115 | 0 | 
-| 0% | 0% | 5% | 3% | 40% | 3% | 49% | 0% | 
+| 0 | 0 | 9 | 7 | 94 | 7 | 119 | 0 | 
+| 0% | 0% | 4% | 3% | 40% | 3% | 50% | 0% | 
 
 
 
