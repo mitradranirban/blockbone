@@ -11,7 +11,7 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>1</integer>
+    <integer>200</integer>
     <key>copyright</key>
     <string>Copyright 2024, The Blockbone Project Authors (https://github.com/mitradranirban/blockbone)</string>
     <key>unitsPerEm</key>
@@ -29,7 +29,7 @@
     <key>openTypeHheaAscender</key>
     <integer>1200</integer>
     <key>openTypeHheaDescender</key>
-    <integer>300</integer>
+    <integer>-300</integer>
     <key>openTypeHheaLineGap</key>
     <integer>0</integer>
     <key>openTypeNameLicense</key>
@@ -40,7 +40,7 @@ This license is available with a FAQ at: https://openfontlicence.org
     <string>https://openfontlicence.org
 </string>
     <key>openTypeNameVersion</key>
-    <string>Version 0.001</string>
+    <string>Version 0.200</string>
     <key>openTypeOS2Panose</key>
     <array>
       <integer>2</integer>

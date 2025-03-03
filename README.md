@@ -10,9 +10,9 @@
 [Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fblockbone.git%2Fgh-pages%2Fbadges%2Foverall.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmitradranirban%2Fblockbone.git%2Fgh-pages%2Fbadges%2FUniversal.json
 
- BlockBone is proposed to be a variable font transitioning leters from Serif style to Blacletter style with increase in weight. It will be usefull for web animation
+ BlockBone is a variable font transitioning leters from Serif style to Blacletter style with increase in weight. It will be usefull for web animation. 
 
-![Sample Image](documentation/image1.png)
+![Sample Image](documentation/BlockBone.gif)
 
 ## About
 
