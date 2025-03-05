@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="braceright" format="2">
+  <advance width="345"/>
+  <unicode hex="007D"/>
+  <outline>
+    <contour>
+      <point x="44" y="830" type="curve"/>
+      <point x="44" y="807" type="line"/>
+      <point x="65" y="804"/>
+      <point x="96" y="786"/>
+      <point x="110" y="761" type="curve" smooth="yes"/>
+      <point x="133" y="720"/>
+      <point x="126" y="621"/>
+      <point x="126" y="606" type="curve" smooth="yes"/>
+      <point x="126" y="591"/>
+      <point x="126" y="461"/>
+      <point x="127" y="442" type="curve" smooth="yes"/>
+      <point x="128" y="429"/>
+      <point x="145" y="357"/>
+      <point x="223" y="346" type="curve"/>
+      <point x="223" y="340" type="line"/>
+      <point x="166" y="336"/>
+      <point x="142" y="287"/>
+      <point x="139" y="284" type="curve" smooth="yes"/>
+      <point x="127" y="269"/>
+      <point x="124" y="135"/>
+      <point x="125" y="118" type="curve" smooth="yes"/>
+      <point x="126" y="101"/>
+      <point x="126" y="-8"/>
+      <point x="125" y="-31" type="curve" smooth="yes"/>
+      <point x="124" y="-46"/>
+      <point x="115" y="-112"/>
+      <point x="40" y="-125" type="curve"/>
+      <point x="41" y="-152" type="line"/>
+      <point x="62" y="-154"/>
+      <point x="143" y="-146"/>
+      <point x="178" y="-118" type="curve" smooth="yes"/>
+      <point x="194" y="-105"/>
+      <point x="216" y="-66"/>
+      <point x="214" y="-23" type="curve" smooth="yes"/>
+      <point x="213" y="-4"/>
+      <point x="207" y="238"/>
+      <point x="230" y="274" type="curve" smooth="yes"/>
+      <point x="238" y="286"/>
+      <point x="251" y="328"/>
+      <point x="305" y="330" type="curve"/>
+      <point x="304" y="355" type="line"/>
+      <point x="253" y="364"/>
+      <point x="230" y="392"/>
+      <point x="222" y="420" type="curve" smooth="yes"/>
+      <point x="212" y="455"/>
+      <point x="215" y="572"/>
+      <point x="215" y="595" type="curve" smooth="yes"/>
+      <point x="215" y="619"/>
+      <point x="217" y="733"/>
+      <point x="202" y="764" type="curve" smooth="yes"/>
+      <point x="190" y="789"/>
+      <point x="161" y="834"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>Blockbone-Black/public.default</key>
+        <string>weight=900</string>
+        <key>Blockbone-Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -12,8 +12,144 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[15] Blockbone[wght].ttf</summary>
+<details><summary>[24] Blockbone[wght].ttf</summary>
 <div>
+<details>
+    <summary>💥 <b>ERROR</b> Familyname must be unique according to namecheck.fontdata.com <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#fontdata-namecheck">fontdata_namecheck</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>Failed to access: <a href="https://namecheck.fontdata.com/api/?q=Blockbone">https://namecheck.fontdata.com/api/?q=Blockbone</a>.
+This check relies on the external service <a href="http://namecheck.fontdata.com">http://namecheck.fontdata.com</a> via the internet. While the service cannot be reached or does not respond this check is broken.</p>
+<pre><code>	You can exclude this check with the command line option:
+	-x fontdata_namecheck
+
+	Or you can wait until the service is available again.
+	If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+	Original error message:
+	&lt;class 'requests.exceptions.ConnectionError'&gt;
+</code></pre>
+ [code: namecheck-service]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-includes-production-subsets">googlefonts/metadata/includes_production_subsets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623093100&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the axes match between the font and the Google Fonts version. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-axes-match">googlefonts/axes_match</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623cf5e70&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-cjk-vertical-metrics">googlefonts/cjk_vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623b54940&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-cjk-vertical-metrics-regressions">googlefonts/cjk_vertical_metrics_regressions</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623b56a70&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae622a7d540&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics-regressions">googlefonts/vertical_metrics_regressions</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae622a7e110&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: error]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
     <div>
@@ -33,7 +169,7 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Font contains glyphs for whitespace characters? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-glyphs">whitespace_glyphs</a></summary>
+    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#fontbakery-version">fontbakery_version</a></summary>
     <div>
 
 
@@ -42,26 +178,9 @@ fontbakery version: 0.13.2
 
 
 
-* 🔥 **FAIL** <p>Whitespace glyph missing for codepoint 0x00A0.</p>
- [code: missing-whitespace-glyph-0x00A0]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>No GF glyphset was found to be supported &gt;80%, so language shaping support couldn't get checked.</p>
- [code: no-glyphset-supported]
+* 🔥 **FAIL** <p>Request to PyPI.org failed with this message:
+HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /pypi/fontbakery/json (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae625716b00&gt;: Failed to resolve 'pypi.org' ([Errno -2] Name or service not known)&quot;))</p>
+ [code: connection-error]
 
 
 
@@ -174,100 +293,7 @@ fontbakery version: 0.13.2
 
 
 * 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x0021 (EXCLAMATION MARK)
-
-
-- 0x0022 (QUOTATION MARK)
-
-
-- 0x0023 (NUMBER SIGN)
-
-
-- 0x0025 (PERCENT SIGN)
-
-
-- 0x0026 (AMPERSAND)
-
-
-- 0x0027 (APOSTROPHE)
-
-
-- 0x0028 (LEFT PARENTHESIS)
-
-
-- 0x0029 (RIGHT PARENTHESIS)
-
-
-- 0x002A (ASTERISK)
-
-
-- 0x002B (PLUS SIGN)
-
-
-- 0x002C (COMMA)
-
-
-- 0x002D (HYPHEN-MINUS)
-
-
-- 0x002F (SOLIDUS)
-
-
-- 0x003A (COLON)
-
-
-- 0x003B (SEMICOLON)
-
-
-- 0x003C (LESS-THAN SIGN)
-
-
-- 0x003D (EQUALS SIGN)
-
-
-- 0x003E (GREATER-THAN SIGN)
-
-
-- 0x003F (QUESTION MARK)
-
-
-- 0x0040 (COMMERCIAL AT)
-
-
-- 0x005B (LEFT SQUARE BRACKET)
-
-
-- 0x005C (REVERSE SOLIDUS)
-
-
-- 0x005D (RIGHT SQUARE BRACKET)
-
-
-- 0x005E (CIRCUMFLEX ACCENT)
-
-
-- 0x005F (LOW LINE)
-
-
-- 0x0060 (GRAVE ACCENT)
-
-
-- 0x007B (LEFT CURLY BRACKET)
-
-
-- 0x007C (VERTICAL LINE)
-
-
-- 0x007D (RIGHT CURLY BRACKET)
-
-
-- 0x007E (TILDE)
-
-
-- 0x00A0 (NO-BREAK SPACE)
-
-
-- 0x00A1 (INVERTED EXCLAMATION MARK)
+<pre><code>- 0x00A1 (INVERTED EXCLAMATION MARK)
 
 
 - 0x00A2 (CENT SIGN)
@@ -822,9 +848,6 @@ fontbakery version: 0.13.2
 - 0x02DD (DOUBLE ACUTE ACCENT)
 
 
-- 0x0300 (COMBINING GRAVE ACCENT)
-
-
 - 0x0301 (COMBINING ACUTE ACCENT)
 
 
@@ -958,6 +981,25 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check mark characters are in GDEF mark glyph class. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-mark-chars">opentype/gdef_mark_chars</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
+gravecomb (U+0300)</p>
+ [code: mark-chars]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#gpos-kerning-info">gpos_kerning_info</a></summary>
     <div>
 
@@ -986,19 +1028,11 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
+<pre><code>- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
-
-- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
 
 - Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
-
-- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
-
-- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'z': becomes underweight between wght=400 and wght=900.
 
@@ -1006,11 +1040,43 @@ fontbakery version: 0.13.2
 
 - Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
 
-- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'gravecomb': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'percent': becomes underweight between wght=400 and wght=900.
+
+- Contour 3 in glyph 'percent': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
+
+- Contour 3 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'three': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 61 in glyph 'three' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
 </code></pre>
  [code: interpolation-issues]
 
@@ -1038,6 +1104,29 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check math signs have the same width. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#math-signs-width">math_signs_width</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The most common width is 550 among a set of 2 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 600:
+equal</p>
+<p>Width = 500:
+greater</p>
+ [code: width-outliers]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
     <div>
 
@@ -1049,6 +1138,26 @@ fontbakery version: 0.13.2
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* R (U+0052): L&lt;&lt;260.0,414.0&gt;--&lt;261.0,365.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -1076,6 +1185,25 @@ fontbakery version: 0.13.2
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì</p>
+ [code: soft-dotted]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
     <div>
 
@@ -1086,19 +1214,15 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
-<pre><code>* A (U+0041) has a counter-clockwise outer contour
+<pre><code>* asciicircum (U+005E) has a counter-clockwise outer contour
 
-* B (U+0042) has a counter-clockwise outer contour
+* asciitilde (U+007E) has a counter-clockwise outer contour
 
-* b (U+0062) has a counter-clockwise outer contour
+* asterisk (U+002A) has a counter-clockwise outer contour
 
-* d (U+0064) has a counter-clockwise outer contour
+* exclam (U+0021) has a counter-clockwise outer contour
 
-* i (U+0069) has a counter-clockwise outer contour
-
-* one (U+0031) has a counter-clockwise outer contour
-
-* p (U+0070) has a counter-clockwise outer contour
+* question (U+003F) has a counter-clockwise outer contour
 </code></pre>
  [code: ccw-outer-contour]
 
@@ -1156,8 +1280,8 @@ fontbakery version: 0.13.2
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 9 | 7 | 94 | 7 | 119 | 0 | 
-| 0% | 0% | 4% | 3% | 40% | 3% | 50% | 0% | 
+| 7 | 0 | 8 | 10 | 87 | 7 | 117 | 0 | 
+| 3% | 0% | 3% | 4% | 37% | 3% | 50% | 0% | 
 
 
 

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotesingle" format="2">
+  <advance width="198.92109865619568"/>
+  <unicode hex="0027"/>
+  <outline>
+    <contour>
+      <point x="109" y="830" type="curve"/>
+      <point x="64" y="831"/>
+      <point x="56" y="792"/>
+      <point x="62" y="756" type="curve" smooth="yes"/>
+      <point x="65" y="738"/>
+      <point x="76" y="667"/>
+      <point x="93" y="564" type="curve"/>
+      <point x="122" y="564" type="line"/>
+      <point x="129" y="605"/>
+      <point x="143" y="703"/>
+      <point x="152" y="755" type="curve" smooth="yes"/>
+      <point x="158" y="788"/>
+      <point x="153" y="825"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>Blockbone-Black/public.default</key>
+        <string>weight=900</string>
+        <key>Blockbone-Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
