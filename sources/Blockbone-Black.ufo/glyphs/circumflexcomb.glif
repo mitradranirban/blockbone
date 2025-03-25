@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb" format="2">
+  <unicode hex="0302"/>
+  <outline>
+    <contour>
+      <point x="-70" y="735" type="curve"/>
+      <point x="-72" y="737"/>
+      <point x="-78" y="746"/>
+      <point x="-88" y="746" type="curve" smooth="yes"/>
+      <point x="-98" y="746"/>
+      <point x="-136" y="746"/>
+      <point x="-142" y="746" type="curve" smooth="yes"/>
+      <point x="-148" y="746"/>
+      <point x="-154" y="745"/>
+      <point x="-161" y="739" type="curve" smooth="yes"/>
+      <point x="-168" y="733"/>
+      <point x="-254" y="648"/>
+      <point x="-260" y="642" type="curve" smooth="yes"/>
+      <point x="-266" y="636"/>
+      <point x="-263" y="629"/>
+      <point x="-257" y="630" type="curve" smooth="yes"/>
+      <point x="-251" y="631"/>
+      <point x="-230" y="630"/>
+      <point x="-226" y="630" type="curve" smooth="yes"/>
+      <point x="-222" y="630"/>
+      <point x="-217" y="629"/>
+      <point x="-212" y="632" type="curve" smooth="yes"/>
+      <point x="-209" y="634"/>
+      <point x="-178" y="653"/>
+      <point x="-119" y="689" type="curve"/>
+      <point x="-116" y="687" type="line"/>
+      <point x="-25" y="636" type="line"/>
+      <point x="-21" y="633"/>
+      <point x="-14" y="628"/>
+      <point x="-10" y="629" type="curve" smooth="yes"/>
+      <point x="-6" y="630"/>
+      <point x="13" y="629"/>
+      <point x="16" y="630" type="curve" smooth="yes"/>
+      <point x="19" y="631"/>
+      <point x="28" y="636"/>
+      <point x="25" y="639" type="curve" smooth="yes"/>
+      <point x="23" y="641"/>
+      <point x="-9" y="673"/>
+    </contour>
+  </outline>
+</glyph>

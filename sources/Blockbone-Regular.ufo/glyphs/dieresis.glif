@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresis" format="2">
+  <advance width="350"/>
+  <unicode hex="00A8"/>
+  <outline>
+    <contour>
+      <point x="147" y="703" type="curve" smooth="yes"/>
+      <point x="148" y="734"/>
+      <point x="127" y="771"/>
+      <point x="81" y="771" type="curve" smooth="yes"/>
+      <point x="36" y="771"/>
+      <point x="15" y="731"/>
+      <point x="15" y="703" type="curve" smooth="yes"/>
+      <point x="15" y="687"/>
+      <point x="35" y="639"/>
+      <point x="80" y="640" type="curve" smooth="yes"/>
+      <point x="125" y="641"/>
+      <point x="146" y="673"/>
+    </contour>
+    <contour>
+      <point x="316" y="701" type="curve" smooth="yes"/>
+      <point x="317" y="732"/>
+      <point x="296" y="769"/>
+      <point x="250" y="769" type="curve" smooth="yes"/>
+      <point x="205" y="769"/>
+      <point x="184" y="729"/>
+      <point x="184" y="701" type="curve" smooth="yes"/>
+      <point x="184" y="685"/>
+      <point x="204" y="637"/>
+      <point x="249" y="638" type="curve" smooth="yes"/>
+      <point x="294" y="639"/>
+      <point x="315" y="671"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

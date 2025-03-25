@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <outline>
+    <contour>
+      <point x="-132" y="661" type="line"/>
+      <point x="-118" y="681" type="line"/>
+      <point x="-72" y="737"/>
+      <point x="-44" y="771"/>
+      <point x="-39" y="778" type="curve" smooth="yes"/>
+      <point x="-33" y="787"/>
+      <point x="-11" y="813"/>
+      <point x="4" y="831" type="curve" smooth="yes"/>
+      <point x="5" y="833"/>
+      <point x="-79" y="847"/>
+      <point x="-108" y="850" type="curve" smooth="yes"/>
+      <point x="-109" y="850"/>
+      <point x="-135" y="784"/>
+      <point x="-132" y="662" type="curve"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fraction" format="2">
+  <advance width="500"/>
+  <unicode hex="2044"/>
+  <outline>
+    <contour>
+      <point x="382" y="770" type="line"/>
+      <point x="31" y="7" type="line"/>
+      <point x="30" y="6"/>
+      <point x="84" y="-2"/>
+      <point x="84" y="-2" type="curve"/>
+      <point x="431" y="770" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

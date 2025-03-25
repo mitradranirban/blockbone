@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ograve" format="2">
+  <advance width="944"/>
+  <unicode hex="00D2"/>
+  <outline>
+    <component base="O"/>
+    <component base="gravecomb" xScale="0.9819612141195218" xyScale="0.1890824528212884" yxScale="-0.1890824528212884" yScale="0.9819612141195218" xOffset="596.9421493300817" yOffset="191.26140292998923"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

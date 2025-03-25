@@ -31,14 +31,18 @@
       <key>fontra.projectGlyphSets</key>
       <array>
         <dict>
-          <key>commentChars</key>
-          <string>#</string>
+          <key>codePointColumn</key>
+          <string>Unicode</string>
           <key>dataFormat</key>
-          <string>glyph-names</string>
+          <string>tsv/csv</string>
+          <key>glyphNameColumn</key>
+          <string>Glyph name</string>
+          <key>hasHeader</key>
+          <true/>
           <key>name</key>
-          <string>GF Latin Kernel</string>
+          <string>Adobe Latin 1</string>
           <key>url</key>
-          <string>https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Kernel.txt</string>
+          <string>https://cdn.jsdelivr.net/gh/adobe-type-tools/adobe-latin-charsets/adobe-latin-1.txt</string>
         </dict>
       </array>
     </dict>

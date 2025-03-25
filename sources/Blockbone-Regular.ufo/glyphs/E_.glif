@@ -72,13 +72,6 @@
   </outline>
   <lib>
     <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>Blockbone-Black/public.default</key>
-        <string>weight=900</string>
-        <key>Blockbone-Regular/public.default</key>
-        <string>default</string>
-      </dict>
       <key>xyz.fontra.source-names</key>
       <dict>
         <key>Black</key>
