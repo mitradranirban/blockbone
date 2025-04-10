@@ -3,10 +3,8 @@
   <advance width="500"/>
   <unicode hex="201D"/>
   <outline>
-    <component base="quotedblright"/>
-    <component base="quotedblright"/>
     <component base="quoteright"/>
-    <component base="quoteright" xOffset="201"/>
+    <component base="quoteright" xOffset="168" yOffset="4"/>
   </outline>
   <lib>
     <dict>
@@ -16,13 +14,6 @@
         <string>default</string>
         <key>::fontra001-260e0ee5</key>
         <string>weight=900</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
       </dict>
     </dict>
   </lib>
