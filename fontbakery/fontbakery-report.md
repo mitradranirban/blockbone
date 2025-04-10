@@ -12,8 +12,26 @@ fontbakery version: 0.13.2
 
 
 
-<details><summary>[16] Blockbone[wght].ttf</summary>
+<details><summary>[19] Blockbone[wght].ttf</summary>
 <div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking font version fields (head and name table). <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-font-version">opentype/font_version</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>head version is &quot;0.50000&quot; while name version string (for platform 3, encoding 1) is &quot;Version 0.200&quot;.</p>
+ [code: mismatch]
+
+
+
+</div>
+</details>
+
 <details>
     <summary>🔥 <b>FAIL</b> Validates subfamilyNameID and postScriptNameID for the default instance record <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-varfont-valid-default-instance-nameids">opentype/varfont/valid_default_instance_nameids</a></summary>
     <div>
@@ -26,6 +44,114 @@ fontbakery version: 0.13.2
 
 * 🔥 **FAIL** <p>'Regular' instance has the same coordinates as the default instance; its postscript name should be 'Blockbone-Regular', instead of 'BlockBone-Regular'.</p>
  [code: invalid-default-instance-postscript-name]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
+<table>
+<thead>
+<tr>
+<th align="left">Glyph present in the font</th>
+<th align="left">Missing case-swapping counterpart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">U+00C0: LATIN CAPITAL LETTER A WITH GRAVE</td>
+<td align="left">U+00E0: LATIN SMALL LETTER A WITH GRAVE</td>
+</tr>
+<tr>
+<td align="left">U+00C1: LATIN CAPITAL LETTER A WITH ACUTE</td>
+<td align="left">U+00E1: LATIN SMALL LETTER A WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+00C2: LATIN CAPITAL LETTER A WITH CIRCUMFLEX</td>
+<td align="left">U+00E2: LATIN SMALL LETTER A WITH CIRCUMFLEX</td>
+</tr>
+<tr>
+<td align="left">U+00C3: LATIN CAPITAL LETTER A WITH TILDE</td>
+<td align="left">U+00E3: LATIN SMALL LETTER A WITH TILDE</td>
+</tr>
+<tr>
+<td align="left">U+00C4: LATIN CAPITAL LETTER A WITH DIAERESIS</td>
+<td align="left">U+00E4: LATIN SMALL LETTER A WITH DIAERESIS</td>
+</tr>
+<tr>
+<td align="left">U+00C5: LATIN CAPITAL LETTER A WITH RING ABOVE</td>
+<td align="left">U+00E5: LATIN SMALL LETTER A WITH RING ABOVE</td>
+</tr>
+<tr>
+<td align="left">U+00C6: LATIN CAPITAL LETTER AE</td>
+<td align="left">U+00E6: LATIN SMALL LETTER AE</td>
+</tr>
+<tr>
+<td align="left">U+00C7: LATIN CAPITAL LETTER C WITH CEDILLA</td>
+<td align="left">U+00E7: LATIN SMALL LETTER C WITH CEDILLA</td>
+</tr>
+<tr>
+<td align="left">U+00C8: LATIN CAPITAL LETTER E WITH GRAVE</td>
+<td align="left">U+00E8: LATIN SMALL LETTER E WITH GRAVE</td>
+</tr>
+<tr>
+<td align="left">U+00C9: LATIN CAPITAL LETTER E WITH ACUTE</td>
+<td align="left">U+00E9: LATIN SMALL LETTER E WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+00CA: LATIN CAPITAL LETTER E WITH CIRCUMFLEX</td>
+<td align="left">U+00EA: LATIN SMALL LETTER E WITH CIRCUMFLEX</td>
+</tr>
+<tr>
+<td align="left">U+00CB: LATIN CAPITAL LETTER E WITH DIAERESIS</td>
+<td align="left">U+00EB: LATIN SMALL LETTER E WITH DIAERESIS</td>
+</tr>
+<tr>
+<td align="left">U+00CC: LATIN CAPITAL LETTER I WITH GRAVE</td>
+<td align="left">U+00EC: LATIN SMALL LETTER I WITH GRAVE</td>
+</tr>
+<tr>
+<td align="left">U+00CD: LATIN CAPITAL LETTER I WITH ACUTE</td>
+<td align="left">U+00ED: LATIN SMALL LETTER I WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+00CE: LATIN CAPITAL LETTER I WITH CIRCUMFLEX</td>
+<td align="left">U+00EE: LATIN SMALL LETTER I WITH CIRCUMFLEX</td>
+</tr>
+<tr>
+<td align="left">U+00CF: LATIN CAPITAL LETTER I WITH DIAERESIS</td>
+<td align="left">U+00EF: LATIN SMALL LETTER I WITH DIAERESIS</td>
+</tr>
+<tr>
+<td align="left">U+00D1: LATIN CAPITAL LETTER N WITH TILDE</td>
+<td align="left">U+00F1: LATIN SMALL LETTER N WITH TILDE</td>
+</tr>
+<tr>
+<td align="left">U+00D2: LATIN CAPITAL LETTER O WITH GRAVE</td>
+<td align="left">U+00F2: LATIN SMALL LETTER O WITH GRAVE</td>
+</tr>
+<tr>
+<td align="left">U+00D3: LATIN CAPITAL LETTER O WITH ACUTE</td>
+<td align="left">U+00F3: LATIN SMALL LETTER O WITH ACUTE</td>
+</tr>
+<tr>
+<td align="left">U+0152: LATIN CAPITAL LIGATURE OE</td>
+<td align="left">U+0153: LATIN SMALL LIGATURE OE</td>
+</tr>
+</tbody>
+</table>
+ [code: missing-case-counterparts]
 
 
 
@@ -138,121 +264,13 @@ fontbakery version: 0.13.2
 
 
 * 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-- 0x00A2 (CENT SIGN)
-
-
-- 0x00A3 (POUND SIGN)
-
-
-- 0x00A5 (YEN SIGN)
-
-
-- 0x00A7 (SECTION SIGN)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00A9 (COPYRIGHT SIGN)
-
-
-- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00AE (REGISTERED SIGN)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B0 (DEGREE SIGN)
-
-
-- 0x00B4 (ACUTE ACCENT)
+<pre><code>- 0x00AE (REGISTERED SIGN)
 
 
 - 0x00B6 (PILCROW SIGN)
 
 
-- 0x00B7 (MIDDLE DOT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00BF (INVERTED QUESTION MARK)
-
-
-- 0x00C0 (LATIN CAPITAL LETTER A WITH GRAVE)
-
-
-- 0x00C1 (LATIN CAPITAL LETTER A WITH ACUTE)
-
-
-- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
-
-
-- 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
-
-
-- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
-- 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
-
-
-- 0x00C6 (LATIN CAPITAL LETTER AE)
-
-
-- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
-
-
-- 0x00C8 (LATIN CAPITAL LETTER E WITH GRAVE)
-
-
-- 0x00C9 (LATIN CAPITAL LETTER E WITH ACUTE)
-
-
-- 0x00CA (LATIN CAPITAL LETTER E WITH CIRCUMFLEX)
-
-
-- 0x00CB (LATIN CAPITAL LETTER E WITH DIAERESIS)
-
-
-- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
-
-
-- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
-
-
-- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
-
-
-- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
-
-
 - 0x00D0 (LATIN CAPITAL LETTER ETH)
-
-
-- 0x00D1 (LATIN CAPITAL LETTER N WITH TILDE)
-
-
-- 0x00D2 (LATIN CAPITAL LETTER O WITH GRAVE)
-
-
-- 0x00D3 (LATIN CAPITAL LETTER O WITH ACUTE)
 
 
 - 0x00D4 (LATIN CAPITAL LETTER O WITH CIRCUMFLEX)
@@ -262,9 +280,6 @@ fontbakery version: 0.13.2
 
 
 - 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
-- 0x00D7 (MULTIPLICATION SIGN)
 
 
 - 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
@@ -358,9 +373,6 @@ fontbakery version: 0.13.2
 
 
 - 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
-- 0x00F7 (DIVISION SIGN)
 
 
 - 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
@@ -498,9 +510,6 @@ fontbakery version: 0.13.2
 - 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
 
 
-- 0x0131 (LATIN SMALL LETTER DOTLESS I)
-
-
 - 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
 
 
@@ -553,9 +562,6 @@ fontbakery version: 0.13.2
 
 
 - 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-- 0x0152 (LATIN CAPITAL LIGATURE OE)
 
 
 - 0x0153 (LATIN SMALL LIGATURE OE)
@@ -666,42 +672,6 @@ fontbakery version: 0.13.2
 - 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
 
 
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
 - 0x0304 (COMBINING MACRON)
 
 
@@ -709,12 +679,6 @@ fontbakery version: 0.13.2
 
 
 - 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
 
 
 - 0x030B (COMBINING DOUBLE ACUTE ACCENT)
@@ -759,46 +723,10 @@ fontbakery version: 0.13.2
 - 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
 
 
-- 0x2013 (EN DASH)
-
-
-- 0x2014 (EM DASH)
-
-
-- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
 - 0x2022 (BULLET)
 
 
 - 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x2122 (TRADE MARK SIGN)
-
-
-- 0x2212 (MINUS SIGN)
 </code></pre>
  [code: missing-codepoints]
 
@@ -836,7 +764,7 @@ fontbakery version: 0.13.2
 
 
 * ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
-gravecomb (U+0300)</p>
+acutecomb (U+0301), circumflexcomb (U+0302), dieresiscomb (U+0308), gravecomb (U+0300), ringcomb (U+030A) and tildecomb (U+0303)</p>
  [code: mark-chars]
 
 
@@ -873,17 +801,61 @@ gravecomb (U+0300)</p>
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
+<pre><code>- Contour 2 in glyph 'Aacute': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
+- Contour 1 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
+- Contour 2 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'quoteleft': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'quotesinglbase': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'z': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 39 in glyph 'z' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'three': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 point 61 in glyph 'three' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Egrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 start point differs in glyph 'Adieresis' between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Adieresis': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Iacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'threesuperior': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 49 in glyph 'threesuperior' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'quoteright': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Igrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
 
 - Contour 1 in glyph 'percent': becomes underweight between wght=400 and wght=900.
 
@@ -893,35 +865,45 @@ gravecomb (U+0300)</p>
 
 - Contour 3 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'gravecomb': becomes underweight between wght=400 and wght=900.
+- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 start point differs in glyph 'Edieresis' between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Edieresis': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 start point differs in glyph 'Edieresis' between location wght=400 and location wght=900
+
+- Contour 2 in glyph 'Edieresis': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'gravecomb': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'Agrave': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 7 in glyph 'micro' has a kink between location wght=400 and location wght=900
 
-- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
+- Contour 1 start point differs in glyph 'OE' between location wght=400 and location wght=900
 
-- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
+- Contour 1 in glyph 'OE': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'z': becomes underweight between wght=400 and wght=900.
+- Contour 2 start point differs in glyph 'OE' between location wght=400 and location wght=900
 
-- Contour 0 point 39 in glyph 'z' has a kink between location wght=400 and location wght=900
+- Contour 1 in glyph 'Eacute': becomes underweight between wght=400 and wght=900.
 
 - Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
 
-- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 44 in glyph 'yen' has a kink between location wght=400 and location wght=900
 
-- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
-
-- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
-
-- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'acutecomb': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
 
@@ -958,12 +940,14 @@ gravecomb (U+0300)</p>
 
 
 
-* ⚠️ **WARN** <p>The most common width is 550 among a set of 2 math glyphs.
+* ⚠️ **WARN** <p>The most common width is 550 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 600:
 equal</p>
 <p>Width = 500:
-greater</p>
+multiply, greater</p>
+<p>Width = 632:
+plusminus</p>
  [code: width-outliers]
 
 
@@ -1030,6 +1014,36 @@ greater</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
@@ -1039,8 +1053,8 @@ greater</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ j̀ j́ j̃ j̈</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì í î ĩ ï ĵ j̊</p>
  [code: soft-dotted]
 
 
@@ -1065,9 +1079,15 @@ greater</p>
 
 * asterisk (U+002A) has a counter-clockwise outer contour
 
+* cent (U+00A2) has a counter-clockwise outer contour
+
 * exclam (U+0021) has a counter-clockwise outer contour
 
+* exclamdown (U+00A1) has a counter-clockwise outer contour
+
 * question (U+003F) has a counter-clockwise outer contour
+
+* questiondown (U+00BF) has a counter-clockwise outer contour
 </code></pre>
  [code: ccw-outer-contour]
 
@@ -1125,8 +1145,8 @@ greater</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 7 | 10 | 92 | 7 | 120 | 0 | 
-| 0% | 0% | 3% | 4% | 39% | 3% | 51% | 0% | 
+| 0 | 0 | 9 | 11 | 91 | 7 | 118 | 0 | 
+| 0% | 0% | 4% | 5% | 39% | 3% | 50% | 0% | 
 
 
 
