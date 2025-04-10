@@ -1,71 +1,65 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="z" format="2">
   <advance width="530"/>
   <unicode hex="007A"/>
   <outline>
     <contour>
-      <point x="79" y="532" type="curve"/>
+      <point x="79" y="532" type="qcurve"/>
       <point x="64" y="396" type="line"/>
-      <point x="77" y="397"/>
-      <point x="99" y="395"/>
-      <point x="99" y="395" type="curve" smooth="yes"/>
-      <point x="113" y="491"/>
-      <point x="150" y="478"/>
-      <point x="198" y="488" type="curve"/>
+      <point x="99" y="395" type="line"/>
+      <point x="103" y="423"/>
+      <point x="109" y="440.5" type="qcurve" smooth="yes"/>
+      <point x="115" y="458"/>
+      <point x="127" y="466.5" type="qcurve" smooth="yes"/>
+      <point x="139" y="475"/>
+      <point x="145.5" y="478" type="qcurve" smooth="yes"/>
+      <point x="152" y="481"/>
+      <point x="172" y="484" type="qcurve" smooth="yes"/>
+      <point x="192" y="487"/>
+      <point x="198" y="488" type="qcurve"/>
       <point x="365" y="487" type="line"/>
-      <point x="353" y="471"/>
-      <point x="323" y="424"/>
-      <point x="243" y="320" type="curve"/>
-      <point x="169.70751091274033" y="217.01941406726806"/>
-      <point x="90.25881574029096" y="109.26296432395729"/>
-      <point x="18" y="3" type="curve" smooth="yes"/>
-      <point x="17" y="2"/>
-      <point x="18" y="-1"/>
-      <point x="18" y="0" type="curve"/>
-      <point x="36" y="0"/>
-      <point x="376" y="0"/>
-      <point x="392" y="0" type="curve" smooth="yes"/>
-      <point x="408" y="0"/>
-      <point x="491" y="0"/>
-      <point x="498" y="0" type="curve" smooth="yes"/>
-      <point x="498" y="0"/>
+      <point x="363" y="484"/>
+      <point x="348" y="462.5" type="qcurve" smooth="yes"/>
+      <point x="333" y="441"/>
+      <point x="305.5" y="403.5" type="qcurve" smooth="yes"/>
+      <point x="278" y="366"/>
+      <point x="243" y="320" type="qcurve"/>
+      <point x="31" y="22"/>
+      <point x="18" y="3" type="qcurve"/>
+      <point x="18" y="0" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="498" y="0" type="line"/>
       <point x="501" y="22"/>
-      <point x="503" y="42" type="curve" smooth="yes"/>
-      <point x="506" y="65"/>
-      <point x="514" y="137"/>
-      <point x="514" y="154" type="curve" smooth="yes"/>
-      <point x="514" y="158"/>
-      <point x="501" y="154"/>
-      <point x="482" y="155" type="curve"/>
+      <point x="503" y="42" type="qcurve" smooth="yes"/>
+      <point x="514" y="126"/>
+      <point x="514" y="154" type="qcurve" smooth="yes"/>
+      <point x="514" y="156"/>
+      <point x="510.5" y="156" type="qcurve" smooth="yes"/>
+      <point x="507" y="156"/>
+      <point x="498" y="155.5" type="qcurve" smooth="yes"/>
+      <point x="489" y="155"/>
+      <point x="482" y="155" type="qcurve"/>
       <point x="478" y="129" type="line"/>
-      <point x="467" y="100"/>
-      <point x="429" y="37"/>
-      <point x="309" y="46" type="curve" smooth="yes"/>
-      <point x="302" y="47"/>
-      <point x="236" y="46"/>
-      <point x="165" y="50" type="curve"/>
+      <point x="473" y="115"/>
+      <point x="463.5" y="102" type="qcurve" smooth="yes"/>
+      <point x="454" y="89"/>
+      <point x="435.5" y="73.5" type="qcurve" smooth="yes"/>
+      <point x="417" y="58"/>
+      <point x="384" y="50.5" type="qcurve" smooth="yes"/>
+      <point x="351" y="43"/>
+      <point x="309" y="46" type="qcurve" smooth="yes"/>
+      <point x="307" y="46"/>
+      <point x="286" y="46.5" type="qcurve" smooth="yes"/>
+      <point x="265" y="47"/>
+      <point x="230.5" y="47.5" type="qcurve" smooth="yes"/>
+      <point x="196" y="48"/>
+      <point x="165" y="50" type="qcurve"/>
       <point x="296" y="225" type="line"/>
       <point x="511" y="528" type="line"/>
-      <point x="491" y="528"/>
       <point x="352" y="528"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>Blockbone-Black/public.default</key>
-        <string>weight=900</string>
-        <key>Blockbone-Regular/public.default</key>
-        <string>default</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

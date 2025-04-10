@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Udieresis" format="2">
-  <advance width="680"/>
+  <advance width="700"/>
   <unicode hex="00DC"/>
   <outline>
-    <component base="dieresiscomb" xOffset="395.63" yOffset="336"/>
-    <component base="U"/>
+    <component base="U" xScale="1.0735766423357662" xOffset="-44.27153284671533" yOffset="-4"/>
+    <component base="dieresiscomb" xScale="0.773452921954701" xyScale="-0.13157586995924425" yxScale="0.12382952101123579" yScale="0.9164664839268145" xOffset="216.549729509876" yOffset="81.61239693597523"/>
   </outline>
 </glyph>

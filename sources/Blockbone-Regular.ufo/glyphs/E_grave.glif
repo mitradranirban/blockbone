@@ -1,27 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Egrave" format="2">
   <advance width="700"/>
   <unicode hex="00C8"/>
   <outline>
     <component base="E"/>
-    <component base="gravecomb" xScale="0.9854885134952766" xyScale="0.16974212726624502" yxScale="-0.16974212726624502" yScale="0.9854885134952766" xOffset="491.50935930994103" yOffset="188.40386506843905"/>
+    <component base="gravecomb" xScale="0.985489" yScale="0.985489" xyScale="0.169742" yxScale="-0.169742" xOffset="491.509" yOffset="188.404"/>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>::fontra000-b2571877</key>
-        <string>default</string>
-        <key>::fontra001-260e0ee5</key>
-        <string>weight=900</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

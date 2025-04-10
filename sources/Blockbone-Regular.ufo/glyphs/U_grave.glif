@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Ugrave" format="2">
-  <advance width="880"/>
+  <advance width="850"/>
   <unicode hex="00D9"/>
   <outline>
-    <component base="gravecomb" xOffset="-55" yOffset="189"/>
     <component base="U"/>
+    <component base="gravecomb" xScale="0.986356" yScale="0.986356" xyScale="0.164623" yxScale="-0.164623" xOffset="565.508" yOffset="189.051"/>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

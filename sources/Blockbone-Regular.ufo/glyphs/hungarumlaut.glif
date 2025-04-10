@@ -1,27 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hungarumlaut" format="2">
   <advance width="500"/>
   <unicode hex="02DD"/>
+  <anchor x="40" y="625" name="_top"/>
   <outline>
-    <component base="acutecomb" xOffset="149" yOffset="2"/>
-    <component base="acutecomb" xOffset="342" yOffset="2"/>
+    <contour>
+      <point x="21" y="653" type="line"/>
+      <point x="67" y="653" type="line"/>
+      <point x="223" y="728" type="line"/>
+      <point x="258" y="751"/>
+      <point x="256" y="772" type="qcurve" smooth="yes"/>
+      <point x="254" y="790"/>
+      <point x="240.5" y="799" type="qcurve" smooth="yes"/>
+      <point x="227" y="808"/>
+      <point x="207" y="804" type="qcurve" smooth="yes"/>
+      <point x="183" y="799"/>
+      <point x="159" y="780" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="214" y="653" type="line"/>
+      <point x="260" y="653" type="line"/>
+      <point x="416" y="728" type="line"/>
+      <point x="451" y="751"/>
+      <point x="449" y="772" type="qcurve" smooth="yes"/>
+      <point x="447" y="790"/>
+      <point x="433.5" y="799" type="qcurve" smooth="yes"/>
+      <point x="420" y="808"/>
+      <point x="400" y="804" type="qcurve" smooth="yes"/>
+      <point x="376" y="799"/>
+      <point x="352" y="780" type="qcurve"/>
+    </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>::fontra000-b2571877</key>
-        <string>default</string>
-        <key>::fontra001-260e0ee5</key>
-        <string>weight=900</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

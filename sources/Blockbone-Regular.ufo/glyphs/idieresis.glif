@@ -3,7 +3,10 @@
   <advance width="350"/>
   <unicode hex="00EF"/>
   <outline>
-    <component base="dieresiscomb" xOffset="179.473" yOffset="381.041"/>
-    <component base="i"/>
+    <component base="idotless"/>
+    <component base="dieresiscomb" xScale="0.943314" xOffset="182.106" yOffset="-4"/>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

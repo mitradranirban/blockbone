@@ -1,24 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Agrave" format="2">
   <advance width="800"/>
   <unicode hex="00C0"/>
-  <anchor x="466.42932832821555" y="795.0282341335799" name="_top"/>
+  <anchor x="466.429" y="795.028" name="_top"/>
   <outline>
     <contour>
-      <point x="483.52556920085334" y="847.7986666505183" type="line"/>
-      <point x="325.56878072146844" y="948.9058027650321" type="line"/>
-      <point x="300.9509911348621" y="961.8272746575672"/>
-      <point x="296.66446376747945" y="963.102297452924"/>
-      <point x="274.1304523128762" y="964.2060763093125" type="curve" smooth="yes"/>
-      <point x="246.49875391554497" y="965.4264220303787"/>
-      <point x="230.21848109565008" y="948.3397981125361"/>
-      <point x="231.43161410061975" y="924.1834675072423" type="curve" smooth="yes"/>
-      <point x="232.761313970267" y="905.1248238446765"/>
-      <point x="261.6656309242561" y="890.9283291567847"/>
-      <point x="271.57078976736756" y="886.5823162377137" type="curve" smooth="yes"/>
-      <point x="279.3326849267877" y="882.8738147163212"/>
-      <point x="329.265261049367" y="870.3543162534106"/>
-      <point x="438.2244125622918" y="839.8108504778393" type="curve"/>
+      <point x="483.526" y="847.799" type="line"/>
+      <point x="325.569" y="948.906" type="line"/>
+      <point x="307.105" y="958.597"/>
+      <point x="299.068" y="960.988" type="qcurve" smooth="yes"/>
+      <point x="291.031" y="963.378"/>
+      <point x="274.13" y="964.206" type="qcurve" smooth="yes"/>
+      <point x="253.733" y="965.107"/>
+      <point x="242.12" y="953.861" type="qcurve" smooth="yes"/>
+      <point x="230.506" y="942.616"/>
+      <point x="231.432" y="924.183" type="qcurve" smooth="yes"/>
+      <point x="232.87" y="903.563"/>
+      <point x="271.571" y="886.582" type="qcurve" smooth="yes"/>
+      <point x="271.85" y="886.449"/>
+      <point x="438.224" y="839.811" type="qcurve"/>
     </contour>
     <contour>
       <point x="281" y="556" type="qcurve"/>
@@ -45,9 +45,9 @@
       <point x="532" y="48" type="qcurve" smooth="yes"/>
       <point x="460" y="38" type="line"/>
       <point x="459" y="-2" type="line"/>
-      <point x="800.2857142857143" y="0" type="line"/>
-      <point x="801.2857142857143" y="37" type="line"/>
-      <point x="743.2857142857143" y="44" type="line"/>
+      <point x="800.286" y="0" type="line"/>
+      <point x="801.286" y="37" type="line"/>
+      <point x="743.286" y="44" type="line"/>
       <point x="691" y="60"/>
       <point x="637" y="195" type="qcurve" smooth="yes"/>
       <point x="601" y="285" type="line"/>
@@ -59,8 +59,7 @@
       <point x="502" y="532" type="qcurve" smooth="yes"/>
       <point x="478" y="578"/>
       <point x="408" y="769" type="qcurve"/>
-      <point x="364" y="770"/>
-      <point x="364" y="770" type="qcurve"/>
+      <point x="364" y="770" type="line"/>
       <point x="363" y="766"/>
       <point x="343" y="727"/>
       <point x="329" y="681" type="qcurve"/>
@@ -81,21 +80,6 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>::fontra000-b2571877</key>
-        <string>default</string>
-        <key>::fontra001-260e0ee5</key>
-        <string>weight=900</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

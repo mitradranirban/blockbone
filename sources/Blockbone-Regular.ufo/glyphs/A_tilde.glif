@@ -1,45 +1,62 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Atilde" format="2">
   <advance width="800"/>
   <unicode hex="00C3"/>
   <outline>
     <contour>
       <point x="520" y="956" type="line"/>
-      <point x="507" y="927"/>
-      <point x="507" y="921"/>
-      <point x="488" y="915" type="curve" smooth="yes"/>
-      <point x="460" y="907"/>
-      <point x="432" y="924"/>
-      <point x="410" y="931" type="curve" smooth="yes"/>
-      <point x="383" y="940"/>
-      <point x="354" y="959"/>
-      <point x="326" y="960" type="curve" smooth="yes"/>
-      <point x="301" y="961"/>
-      <point x="272" y="956"/>
-      <point x="254" y="934" type="curve" smooth="yes"/>
-      <point x="244" y="921"/>
-      <point x="222" y="895"/>
-      <point x="211" y="847" type="curve"/>
+      <point x="518" y="952"/>
+      <point x="515" y="945" type="qcurve" smooth="yes"/>
+      <point x="512" y="938"/>
+      <point x="511" y="936" type="qcurve" smooth="yes"/>
+      <point x="510" y="934"/>
+      <point x="508" y="930" type="qcurve" smooth="yes"/>
+      <point x="506" y="926"/>
+      <point x="504.5" y="924.5" type="qcurve" smooth="yes"/>
+      <point x="503" y="923"/>
+      <point x="500.5" y="921" type="qcurve" smooth="yes"/>
+      <point x="498" y="919"/>
+      <point x="495" y="917.5" type="qcurve" smooth="yes"/>
+      <point x="492" y="916"/>
+      <point x="488" y="915" type="qcurve" smooth="yes"/>
+      <point x="481" y="911"/>
+      <point x="467.5" y="913" type="qcurve" smooth="yes"/>
+      <point x="454" y="915"/>
+      <point x="447" y="917" type="qcurve" smooth="yes"/>
+      <point x="440" y="919"/>
+      <point x="427.5" y="924" type="qcurve" smooth="yes"/>
+      <point x="415" y="929"/>
+      <point x="410" y="931" type="qcurve" smooth="yes"/>
+      <point x="408" y="932"/>
+      <point x="375.5" y="945.5" type="qcurve" smooth="yes"/>
+      <point x="343" y="959"/>
+      <point x="326" y="960" type="qcurve" smooth="yes"/>
+      <point x="277" y="962"/>
+      <point x="254" y="934" type="qcurve" smooth="yes"/>
+      <point x="221" y="891"/>
+      <point x="211" y="847" type="qcurve"/>
       <point x="246" y="846" type="line"/>
-      <point x="252" y="863"/>
-      <point x="253" y="864"/>
-      <point x="258" y="872" type="curve" smooth="yes"/>
-      <point x="266" y="884"/>
-      <point x="279" y="888"/>
-      <point x="300" y="886" type="curve" smooth="yes"/>
-      <point x="336" y="883"/>
-      <point x="358" y="868"/>
-      <point x="376" y="860" type="curve" smooth="yes"/>
-      <point x="399" y="850"/>
-      <point x="425" y="840"/>
-      <point x="448" y="838" type="curve" smooth="yes"/>
-      <point x="464" y="836"/>
-      <point x="499" y="844"/>
-      <point x="521" y="873" type="curve"/>
+      <point x="252" y="862"/>
+      <point x="258" y="872" type="qcurve" smooth="yes"/>
+      <point x="269" y="889"/>
+      <point x="300" y="886" type="qcurve" smooth="yes"/>
+      <point x="313" y="885"/>
+      <point x="325" y="881.5" type="qcurve" smooth="yes"/>
+      <point x="337" y="878"/>
+      <point x="344" y="875" type="qcurve" smooth="yes"/>
+      <point x="351" y="872"/>
+      <point x="362" y="867" type="qcurve" smooth="yes"/>
+      <point x="373" y="862"/>
+      <point x="376" y="860" type="qcurve" smooth="yes"/>
+      <point x="421" y="840"/>
+      <point x="448" y="838" type="qcurve" smooth="yes"/>
+      <point x="463" y="836"/>
+      <point x="484.5" y="844.5" type="qcurve" smooth="yes"/>
+      <point x="506" y="853"/>
+      <point x="521" y="873" type="qcurve"/>
       <point x="528" y="884" type="line"/>
-      <point x="546" y="908"/>
-      <point x="548" y="928"/>
-      <point x="553" y="956" type="curve"/>
+      <point x="544" y="905"/>
+      <point x="553" y="956" type="qcurve"/>
     </contour>
     <contour>
       <point x="281" y="556" type="qcurve"/>
@@ -66,9 +83,9 @@
       <point x="532" y="48" type="qcurve" smooth="yes"/>
       <point x="460" y="38" type="line"/>
       <point x="459" y="-2" type="line"/>
-      <point x="800.2857142857143" y="0" type="line"/>
-      <point x="801.2857142857143" y="37" type="line"/>
-      <point x="743.2857142857143" y="44" type="line"/>
+      <point x="800.286" y="0" type="line"/>
+      <point x="801.286" y="37" type="line"/>
+      <point x="743.286" y="44" type="line"/>
       <point x="691" y="60"/>
       <point x="637" y="195" type="qcurve" smooth="yes"/>
       <point x="601" y="285" type="line"/>
@@ -80,8 +97,7 @@
       <point x="502" y="532" type="qcurve" smooth="yes"/>
       <point x="478" y="578"/>
       <point x="408" y="769" type="qcurve"/>
-      <point x="364" y="770"/>
-      <point x="364" y="770" type="qcurve"/>
+      <point x="364" y="770" type="line"/>
       <point x="363" y="766"/>
       <point x="343" y="727"/>
       <point x="329" y="681" type="qcurve"/>
@@ -102,21 +118,6 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>::fontra000-b2571877</key>
-        <string>default</string>
-        <key>::fontra001-260e0ee5</key>
-        <string>weight=900</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

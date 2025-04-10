@@ -1,55 +1,48 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedbl" format="2">
-  <advance width="365.8132934068089"/>
+  <advance width="365"/>
   <unicode hex="0022"/>
   <outline>
     <contour>
-      <point x="108.74696687619667" y="830" type="curve"/>
-      <point x="63.746966876196666" y="831"/>
-      <point x="55.746966876196666" y="792"/>
-      <point x="61.746966876196666" y="756" type="curve" smooth="yes"/>
-      <point x="64.74696687619667" y="738"/>
-      <point x="75.74696687619667" y="667"/>
-      <point x="92.74696687619667" y="564" type="curve"/>
-      <point x="121.74696687619667" y="564" type="line"/>
-      <point x="128.74696687619667" y="605"/>
-      <point x="142.74696687619667" y="703"/>
-      <point x="151.74696687619667" y="755" type="curve" smooth="yes"/>
-      <point x="157.74696687619667" y="788"/>
-      <point x="152.74696687619667" y="825"/>
+      <point x="108.747" y="830" type="qcurve"/>
+      <point x="77.7132" y="830.69"/>
+      <point x="67.1299" y="808.946" type="qcurve" smooth="yes"/>
+      <point x="56.5466" y="787.202"/>
+      <point x="61.747" y="756" type="qcurve" smooth="yes"/>
+      <point x="62.7046" y="750.254"/>
+      <point x="66.9296" y="723.628" type="qcurve" smooth="yes"/>
+      <point x="71.1546" y="697.002"/>
+      <point x="78.231" y="653.039" type="qcurve" smooth="yes"/>
+      <point x="85.3075" y="609.075"/>
+      <point x="92.747" y="564" type="qcurve"/>
+      <point x="121.747" y="564" type="line"/>
+      <point x="124.871" y="582.3"/>
+      <point x="135.89" y="654.674" type="qcurve" smooth="yes"/>
+      <point x="146.909" y="727.048"/>
+      <point x="151.747" y="755" type="qcurve" smooth="yes"/>
+      <point x="164.237" y="823.694"/>
     </contour>
     <contour>
-      <point x="260.74696687619667" y="830" type="curve"/>
-      <point x="215.74696687619667" y="831"/>
-      <point x="207.74696687619667" y="792"/>
-      <point x="213.74696687619667" y="756" type="curve" smooth="yes"/>
-      <point x="216.74696687619667" y="738"/>
-      <point x="227.74696687619667" y="667"/>
-      <point x="244.74696687619667" y="564" type="curve"/>
-      <point x="273.74696687619667" y="564" type="line"/>
-      <point x="280.74696687619667" y="605"/>
-      <point x="294.74696687619667" y="703"/>
-      <point x="303.74696687619667" y="755" type="curve" smooth="yes"/>
-      <point x="309.74696687619667" y="788"/>
-      <point x="304.74696687619667" y="825"/>
+      <point x="260.747" y="830" type="qcurve"/>
+      <point x="229.713" y="830.69"/>
+      <point x="219.13" y="808.946" type="qcurve" smooth="yes"/>
+      <point x="208.547" y="787.202"/>
+      <point x="213.747" y="756" type="qcurve" smooth="yes"/>
+      <point x="214.705" y="750.254"/>
+      <point x="218.93" y="723.628" type="qcurve" smooth="yes"/>
+      <point x="223.155" y="697.002"/>
+      <point x="230.231" y="653.039" type="qcurve" smooth="yes"/>
+      <point x="237.307" y="609.075"/>
+      <point x="244.747" y="564" type="qcurve"/>
+      <point x="273.747" y="564" type="line"/>
+      <point x="276.871" y="582.3"/>
+      <point x="287.89" y="654.674" type="qcurve" smooth="yes"/>
+      <point x="298.909" y="727.048"/>
+      <point x="303.747" y="755" type="qcurve" smooth="yes"/>
+      <point x="316.237" y="823.694"/>
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>Blockbone-Black/public.default</key>
-        <string>weight=900</string>
-        <key>Blockbone-Regular/public.default</key>
-        <string>default</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

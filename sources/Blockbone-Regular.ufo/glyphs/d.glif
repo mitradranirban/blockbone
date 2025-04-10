@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="d" format="2">
   <advance width="700"/>
   <unicode hex="0064"/>
@@ -49,9 +49,8 @@
       <point x="339" y="39" type="line"/>
       <point x="290" y="40" type="line"/>
       <point x="244" y="51" type="line"/>
-      <point x="222" y="70"/>
-      <point x="211" y="81"/>
-      <point x="210" y="83" type="curve"/>
+      <point x="212" y="78"/>
+      <point x="210" y="83" type="qcurve"/>
       <point x="193" y="110" type="line"/>
       <point x="174" y="157" type="line"/>
       <point x="165" y="205" type="line"/>
@@ -66,19 +65,6 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>Blockbone-Black/public.default</key>
-        <string>Black</string>
-        <key>Blockbone-Regular/public.default</key>
-        <string>default</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

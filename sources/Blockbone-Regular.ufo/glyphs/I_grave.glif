@@ -1,27 +1,12 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Igrave" format="2">
   <advance width="409"/>
   <unicode hex="00CC"/>
   <outline>
     <component base="I"/>
-    <component base="gravecomb" xScale="0.9807388912024854" xyScale="0.19532339154059183" yxScale="-0.19532339154059186" yScale="0.9807388912024855" xOffset="339.4131974882803" yOffset="191.11251168897394"/>
+    <component base="gravecomb" xScale="0.980739" yScale="0.980739" xyScale="0.195323" yxScale="-0.195323" xOffset="339.413" yOffset="191.113"/>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>::fontra000-b2571877</key>
-        <string>default</string>
-        <key>::fontra001-260e0ee5</key>
-        <string>weight=900</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Uacute" format="2">
-  <advance width="880"/>
+  <advance width="850"/>
   <unicode hex="00DA"/>
   <outline>
-    <component base="acutecomb" xOffset="119" yOffset="229"/>
     <component base="U"/>
+    <component base="acutecomb" xScale="0.985769" yScale="0.985769" xyScale="-0.168107" yxScale="0.168107" xOffset="376.85" yOffset="185.356"/>
   </outline>
+  <lib>
+    <dict/>
+  </lib>
 </glyph>

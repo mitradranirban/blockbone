@@ -1,35 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright" format="2">
-  <advance width="500"/>
+  <advance width="371"/>
   <unicode hex="005D"/>
   <outline>
     <contour>
-      <point x="108" y="-150" type="line"/>
-      <point x="348" y="-150" type="line"/>
-      <point x="348" y="820" type="line"/>
-      <point x="107" y="820" type="line"/>
-      <point x="107" y="774" type="line"/>
-      <point x="258" y="773" type="line"/>
-      <point x="258" y="-103" type="line"/>
-      <point x="107" y="-104" type="line"/>
+      <point x="25" y="-150" type="line"/>
+      <point x="265" y="-150" type="line"/>
+      <point x="265" y="820" type="line"/>
+      <point x="24" y="820" type="line"/>
+      <point x="24" y="774" type="line"/>
+      <point x="175" y="773" type="line"/>
+      <point x="175" y="-103" type="line"/>
+      <point x="24" y="-104" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>Blockbone-Black/public.default</key>
-        <string>weight=900</string>
-        <key>Blockbone-Regular/public.default</key>
-        <string>default</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
-  </lib>
 </glyph>

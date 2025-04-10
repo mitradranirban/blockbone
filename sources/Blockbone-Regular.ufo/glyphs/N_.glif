@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="N" format="2">
   <advance width="900"/>
   <unicode hex="004E"/>
@@ -18,9 +18,19 @@
       <point x="83" y="729" type="line"/>
       <point x="98" y="726" type="line"/>
       <point x="108" y="723" type="line"/>
-      <point x="124" y="715"/>
-      <point x="157" y="716"/>
-      <point x="155" y="584" type="curve"/>
+      <point x="115.5" y="720" type="line" smooth="yes"/>
+      <point x="123" y="717"/>
+      <point x="125" y="715" type="qcurve" smooth="yes"/>
+      <point x="127" y="713"/>
+      <point x="133.5" y="707" type="qcurve" smooth="yes"/>
+      <point x="140" y="701"/>
+      <point x="142.5" y="691.5" type="qcurve" smooth="yes"/>
+      <point x="145" y="682"/>
+      <point x="149" y="668" type="qcurve" smooth="yes"/>
+      <point x="153" y="654"/>
+      <point x="154" y="632.5" type="qcurve" smooth="yes"/>
+      <point x="155" y="611"/>
+      <point x="155" y="584" type="qcurve"/>
       <point x="155" y="460" type="line"/>
       <point x="155" y="312" type="line"/>
       <point x="155" y="256" type="line"/>
@@ -99,21 +109,6 @@
     </contour>
   </outline>
   <lib>
-    <dict>
-      <key>xyz.fontra.layer-names</key>
-      <dict>
-        <key>Blockbone-Black/public.default</key>
-        <string>weight=900</string>
-        <key>Blockbone-Regular/public.default</key>
-        <string>default</string>
-      </dict>
-      <key>xyz.fontra.source-names</key>
-      <dict>
-        <key>Black</key>
-        <string>weight=900</string>
-        <key>Regular</key>
-        <string>default</string>
-      </dict>
-    </dict>
+    <dict/>
   </lib>
 </glyph>

@@ -4,6 +4,10 @@
   <unicode hex="201D"/>
   <outline>
     <component base="quoteright"/>
+<<<<<<< Updated upstream
     <component base="quoteright" xOffset="168" yOffset="4"/>
+=======
+    <component base="quoteright" xOffset="111" yOffset="-25"/>
+>>>>>>> Stashed changes
   </outline>
 </glyph>
