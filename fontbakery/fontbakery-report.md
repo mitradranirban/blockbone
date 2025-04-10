@@ -801,19 +801,15 @@ acutecomb (U+0301), circumflexcomb (U+0302), dieresiscomb (U+0308), gravecomb (U
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 2 in glyph 'Aacute': becomes underweight between wght=400 and wght=900.
+<pre><code>- Contour 0 in glyph 'quotesinglbase': becomes underweight between wght=400 and wght=900.
 
-- Contour 1 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+- Contour 1 start point differs in glyph 'Adieresis' between location wght=400 and location wght=900
 
-- Contour 2 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+- Contour 1 in glyph 'Adieresis': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+- Contour 0 point 7 in glyph 'micro' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'quoteleft': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
-
-- Contour 0 in glyph 'quotesinglbase': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'Agrave': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 in glyph 'z': becomes underweight between wght=400 and wght=900.
 
@@ -823,55 +819,13 @@ acutecomb (U+0301), circumflexcomb (U+0302), dieresiscomb (U+0308), gravecomb (U
 
 - Contour 0 point 61 in glyph 'three' has a kink between location wght=400 and location wght=900
 
-- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
+- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Eacute': becomes underweight between wght=400 and wght=900.
 
 - Contour 1 in glyph 'Egrave': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
-
-- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
-
-- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
-
-- Contour 1 start point differs in glyph 'Adieresis' between location wght=400 and location wght=900
-
-- Contour 1 in glyph 'Adieresis': becomes underweight between wght=400 and wght=900.
-
-- Contour 1 in glyph 'Iacute': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'threesuperior': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 point 49 in glyph 'threesuperior' has a kink between location wght=400 and location wght=900
-
-- Contour 1 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
-
-- Contour 2 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'quoteright': becomes underweight between wght=400 and wght=900.
-
-- Contour 1 in glyph 'Igrave': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
-
 - Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
-
-- Contour 1 in glyph 'percent': becomes underweight between wght=400 and wght=900.
-
-- Contour 3 in glyph 'percent': becomes underweight between wght=400 and wght=900.
-
-- Contour 1 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
-
-- Contour 3 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
-
-- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
 
 - Contour 1 start point differs in glyph 'Edieresis' between location wght=400 and location wght=900
 
@@ -881,13 +835,15 @@ acutecomb (U+0301), circumflexcomb (U+0302), dieresiscomb (U+0308), gravecomb (U
 
 - Contour 2 in glyph 'Edieresis': becomes underweight between wght=400 and wght=900.
 
+- Contour 0 in glyph 'acutecomb': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'threesuperior': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 49 in glyph 'threesuperior' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
+
 - Contour 0 in glyph 'gravecomb': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 in glyph 'Agrave': becomes underweight between wght=400 and wght=900.
-
-- Contour 0 point 7 in glyph 'micro' has a kink between location wght=400 and location wght=900
 
 - Contour 1 start point differs in glyph 'OE' between location wght=400 and location wght=900
 
@@ -895,15 +851,59 @@ acutecomb (U+0301), circumflexcomb (U+0302), dieresiscomb (U+0308), gravecomb (U
 
 - Contour 2 start point differs in glyph 'OE' between location wght=400 and location wght=900
 
-- Contour 1 in glyph 'Eacute': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
 
 - Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
 
-- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+- Contour 0 in glyph 'quoteleft': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'quoteright': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 point 44 in glyph 'yen' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'acutecomb': becomes underweight between wght=400 and wght=900.
+- Contour 1 in glyph 'Igrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'percent': becomes underweight between wght=400 and wght=900.
+
+- Contour 3 in glyph 'percent': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
+
+- Contour 3 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Iacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Aacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
 
@@ -1032,8 +1032,8 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
 </ul>
 <p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
  [code: unreachable-subsetting]
