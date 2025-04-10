@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="threequarters" format="2">
+  <advance width="600"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <component base="three" xScale="0.4" yScale="0.4" xOffset="72" yOffset="469"/>
+    <component base="four" xScale="0.4" yScale="0.4" xOffset="361" yOffset="2"/>
+    <component base="fraction" xScale="0.964477" yScale="1.1261" xyScale="-0.289139" yxScale="0.266614" xOffset="2.37703" yOffset="11.0081"/>
+  </outline>
+  <lib>
+    <dict/>
+  </lib>
+</glyph>
