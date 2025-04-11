@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="2">
+  <advance width="900"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <component base="D"/>
+    <component base="hyphen" xScale="1.12744" yScale="0.738967" xOffset="-13.7762" yOffset="193.518"/>
+  </outline>
+</glyph>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedillacomb" format="2">
+  <advance width="0"/>
+  <unicode hex="0327"/>
+  <outline>
+    <contour>
+      <point x="29" y="14" type="line"/>
+      <point x="-24" y="14" type="line"/>
+      <point x="-77" y="-108" type="line"/>
+      <point x="-74" y="-113" type="line"/>
+      <point x="-49" y="-112"/>
+      <point x="-27" y="-111.5" type="qcurve" smooth="yes"/>
+      <point x="-5" y="-111"/>
+      <point x="13.5" y="-120" type="qcurve" smooth="yes"/>
+      <point x="32" y="-129"/>
+      <point x="39" y="-149" type="qcurve" smooth="yes"/>
+      <point x="47" y="-172"/>
+      <point x="29.5" y="-194.5" type="qcurve" smooth="yes"/>
+      <point x="12" y="-217"/>
+      <point x="-14" y="-215" type="qcurve" smooth="yes"/>
+      <point x="-30" y="-214"/>
+      <point x="-38.5" y="-206" type="qcurve" smooth="yes"/>
+      <point x="-47" y="-198"/>
+      <point x="-53.5" y="-182" type="qcurve" smooth="yes"/>
+      <point x="-60" y="-166"/>
+      <point x="-63" y="-162" type="qcurve" smooth="yes"/>
+      <point x="-83" y="-132"/>
+      <point x="-109" y="-153" type="qcurve" smooth="yes"/>
+      <point x="-117" y="-160"/>
+      <point x="-118" y="-181" type="qcurve" smooth="yes"/>
+      <point x="-119" y="-202"/>
+      <point x="-110" y="-216" type="qcurve" smooth="yes"/>
+      <point x="-98" y="-233"/>
+      <point x="-69.5" y="-245.5" type="qcurve" smooth="yes"/>
+      <point x="-41" y="-258"/>
+      <point x="-7" y="-258" type="qcurve" smooth="yes"/>
+      <point x="35" y="-258"/>
+      <point x="71" y="-240.5" type="qcurve" smooth="yes"/>
+      <point x="107" y="-223"/>
+      <point x="117" y="-190" type="qcurve" smooth="yes"/>
+      <point x="137" y="-116"/>
+      <point x="90" y="-91" type="qcurve" smooth="yes"/>
+      <point x="68" y="-79"/>
+      <point x="53" y="-75" type="qcurve" smooth="yes"/>
+      <point x="38" y="-71"/>
+      <point x="21.5" y="-71" type="qcurve" smooth="yes"/>
+      <point x="5" y="-71"/>
+      <point x="-2" y="-70" type="qcurve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict/>
+  </lib>
+</glyph>

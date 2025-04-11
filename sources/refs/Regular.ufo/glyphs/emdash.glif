@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emdash" format="2">
+  <advance width="1000"/>
+  <unicode hex="2014"/>
+  <outline>
+    <contour>
+      <point x="-4" y="423" type="line"/>
+      <point x="-4" y="342" type="line"/>
+      <point x="1001" y="342" type="line"/>
+      <point x="1001" y="423" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

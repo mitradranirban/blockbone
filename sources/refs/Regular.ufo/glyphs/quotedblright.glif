@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblright" format="2">
+  <advance width="500"/>
+  <unicode hex="201D"/>
+  <outline>
+    <component base="quoteright"/>
+    <component base="quoteright" xOffset="168" yOffset="4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

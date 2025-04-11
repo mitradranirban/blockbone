@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="J" format="2">
+  <advance width="500"/>
+  <unicode hex="004A"/>
+  <outline>
+    <contour>
+      <point x="46" y="768" type="line"/>
+      <point x="44" y="731" type="line"/>
+      <point x="65" y="731" type="line"/>
+      <point x="86" y="725" type="line"/>
+      <point x="113" y="720" type="line"/>
+      <point x="128" y="707" type="line"/>
+      <point x="138" y="688" type="line"/>
+      <point x="143" y="659" type="line"/>
+      <point x="145" y="631" type="line"/>
+      <point x="145" y="607" type="line"/>
+      <point x="145" y="564" type="line"/>
+      <point x="145" y="537" type="line"/>
+      <point x="145" y="503" type="line"/>
+      <point x="145" y="470" type="line"/>
+      <point x="145" y="434" type="line"/>
+      <point x="145" y="409" type="line"/>
+      <point x="145" y="384" type="line"/>
+      <point x="145" y="363" type="line"/>
+      <point x="145" y="339" type="line"/>
+      <point x="145" y="309" type="line"/>
+      <point x="145" y="277" type="line"/>
+      <point x="145" y="249" type="line"/>
+      <point x="145" y="209" type="line"/>
+      <point x="145" y="176" type="line"/>
+      <point x="145" y="122" type="line"/>
+      <point x="145" y="10" type="line"/>
+      <point x="145" y="-32" type="line"/>
+      <point x="144" y="-70" type="line"/>
+      <point x="143" y="-94" type="line"/>
+      <point x="137" y="-128" type="line"/>
+      <point x="128" y="-158" type="line"/>
+      <point x="116" y="-181" type="line"/>
+      <point x="95" y="-201" type="line"/>
+      <point x="71" y="-212" type="line"/>
+      <point x="46" y="-210" type="line"/>
+      <point x="23" y="-195" type="line"/>
+      <point x="6" y="-175" type="line"/>
+      <point x="-7" y="-149" type="line"/>
+      <point x="-28" y="-119" type="line"/>
+      <point x="-55" y="-111" type="line"/>
+      <point x="-81" y="-113" type="line"/>
+      <point x="-104" y="-131" type="line"/>
+      <point x="-111" y="-161" type="line"/>
+      <point x="-101" y="-198" type="line"/>
+      <point x="-80" y="-225" type="line"/>
+      <point x="-25" y="-253" type="line"/>
+      <point x="41" y="-260" type="line"/>
+      <point x="94" y="-255" type="line"/>
+      <point x="144" y="-238" type="line"/>
+      <point x="194" y="-197" type="line"/>
+      <point x="229" y="-141" type="line"/>
+      <point x="244" y="-90" type="line"/>
+      <point x="248" y="-30" type="line"/>
+      <point x="250" y="50" type="line"/>
+      <point x="250" y="138" type="line"/>
+      <point x="250" y="193" type="line"/>
+      <point x="250" y="262" type="line"/>
+      <point x="250" y="312" type="line"/>
+      <point x="250" y="372" type="line"/>
+      <point x="250" y="446" type="line"/>
+      <point x="250" y="504" type="line"/>
+      <point x="250" y="564" type="line"/>
+      <point x="250" y="616" type="line"/>
+      <point x="251" y="651" type="line"/>
+      <point x="256" y="684" type="line"/>
+      <point x="268" y="709" type="line"/>
+      <point x="296" y="726" type="line"/>
+      <point x="322" y="729" type="line"/>
+      <point x="348" y="731" type="line"/>
+      <point x="347" y="771" type="line"/>
+      <point x="276" y="771" type="line"/>
+      <point x="200" y="771" type="line"/>
+      <point x="96" y="771" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>Blockbone-Black/public.default</key>
+        <string>weight=900</string>
+        <key>Blockbone-Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

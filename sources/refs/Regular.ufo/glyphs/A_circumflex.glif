@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Acircumflex" format="2">
+  <advance width="800"/>
+  <unicode hex="00C2"/>
+  <outline>
+    <component base="A"/>
+    <component base="circumflexcomb" xOffset="422" yOffset="130"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

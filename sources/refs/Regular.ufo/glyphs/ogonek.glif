@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ogonek" format="2">
+  <advance width="300"/>
+  <unicode hex="02DB"/>
+  <outline>
+    <contour>
+      <point x="203" y="13" type="curve"/>
+      <point x="154" y="13" type="line"/>
+      <point x="126" y="-2"/>
+      <point x="61" y="-30"/>
+      <point x="32" y="-65" type="curve" smooth="yes"/>
+      <point x="3" y="-100"/>
+      <point x="-11" y="-167"/>
+      <point x="11" y="-198" type="curve" smooth="yes"/>
+      <point x="33" y="-229"/>
+      <point x="89" y="-244"/>
+      <point x="159" y="-223" type="curve" smooth="yes"/>
+      <point x="182" y="-216"/>
+      <point x="224" y="-193"/>
+      <point x="253" y="-153" type="curve"/>
+      <point x="224" y="-123" type="line"/>
+      <point x="198" y="-142"/>
+      <point x="185" y="-159"/>
+      <point x="161" y="-169" type="curve" smooth="yes"/>
+      <point x="122" y="-184"/>
+      <point x="95" y="-171"/>
+      <point x="82" y="-147" type="curve" smooth="yes"/>
+      <point x="73" y="-131"/>
+      <point x="76" y="-53"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

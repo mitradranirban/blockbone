@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aacute" format="2">
+  <advance width="800"/>
+  <unicode hex="00C1"/>
+  <outline>
+    <component base="A"/>
+    <component base="acutecomb" xScale="0.9889507839114016" xyScale="-0.1482442140558076" yxScale="0.14824421405580762" yScale="0.9889507839114017" xOffset="314.08617646185036" yOffset="186.75511534738823"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>::fontra000-b2571877</key>
+        <string>default</string>
+        <key>::fontra001-260e0ee5</key>
+        <string>weight=900</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Black</key>
+        <string>weight=900</string>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

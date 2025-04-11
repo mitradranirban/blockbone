@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b" format="2">
+  <advance width="659"/>
+  <unicode hex="0062"/>
+  <outline>
+    <contour>
+      <point x="20" y="803" type="line"/>
+      <point x="114" y="729" type="line"/>
+      <point x="126" y="638" type="line"/>
+      <point x="136" y="3" type="line"/>
+      <point x="204" y="74" type="line"/>
+      <point x="249" y="35" type="line"/>
+      <point x="259" y="16" type="line"/>
+      <point x="359" y="3" type="line"/>
+      <point x="446" y="-3" type="line"/>
+      <point x="507" y="26" type="line"/>
+      <point x="558" y="68" type="line"/>
+      <point x="610" y="139" type="line"/>
+      <point x="629" y="190" type="line"/>
+      <point x="639" y="258" type="line"/>
+      <point x="629" y="371" type="line"/>
+      <point x="591" y="442" type="line"/>
+      <point x="529" y="493" type="line"/>
+      <point x="468" y="532" type="line"/>
+      <point x="400" y="545" type="line"/>
+      <point x="320" y="535" type="line"/>
+      <point x="217" y="471" type="line"/>
+      <point x="220" y="700" type="line"/>
+      <point x="220" y="829" type="line"/>
+      <point x="120" y="812" type="line"/>
+    </contour>
+    <contour>
+      <point x="226" y="361" type="line"/>
+      <point x="252" y="438" type="line"/>
+      <point x="294" y="461" type="line"/>
+      <point x="349" y="484" type="line"/>
+      <point x="391" y="480" type="line"/>
+      <point x="426" y="471" type="line"/>
+      <point x="468" y="448" type="line"/>
+      <point x="497" y="416" type="line"/>
+      <point x="517" y="348" type="line"/>
+      <point x="523" y="287" type="line"/>
+      <point x="526" y="210" type="line"/>
+      <point x="500" y="145" type="line"/>
+      <point x="475" y="97" type="line"/>
+      <point x="439" y="61" type="line"/>
+      <point x="371" y="52" type="line"/>
+      <point x="320" y="55" type="line"/>
+      <point x="275" y="90" type="line"/>
+      <point x="233" y="139" type="line"/>
+      <point x="220" y="197" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>Blockbone-Black/public.default</key>
+        <string>Black</string>
+        <key>Blockbone-Regular/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Regular</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
