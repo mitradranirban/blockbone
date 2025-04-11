@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="onequarter" format="2">
   <advance width="650"/>
   <unicode hex="00BC"/>
   <outline>
-    <component base="one" xScale="0.4" yScale="0.4" xOffset="109" yOffset="466"/>
-    <component base="fraction" xScale="1.06935" yScale="1.08276" xyScale="-0.210944" yxScale="0.208331" xOffset="9.06328" yOffset="20.886"/>
-    <component base="four" xScale="0.4" yScale="0.4" xOffset="355" yOffset="2"/>
+    <component base="one" xScale="0.4" yScale="0.4000000000000001" xOffset="109" yOffset="466"/>
+    <component base="fraction" xScale="1.06935" xyScale="-0.21094399999999977" yxScale="0.2083309999999997" yScale="1.0827599999999997" xOffset="9.06328" yOffset="20.886"/>
+    <component base="four" xScale="0.4" yScale="0.4000000000000001" xOffset="355" yOffset="2"/>
   </outline>
-  <lib>
-    <dict/>
-  </lib>
 </glyph>

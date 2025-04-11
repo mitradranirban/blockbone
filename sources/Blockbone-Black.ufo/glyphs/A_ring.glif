@@ -4,6 +4,6 @@
   <unicode hex="00C5"/>
   <outline>
     <component base="A" yScale="0.9080545474091277" xOffset="4" yOffset="4.522162137199032"/>
-    <component base="ringcomb" xScale="0.9541934360210433" xyScale="0.13372353094215036" yxScale="-0.17173583435682985" yScale="0.7429906282775888" xOffset="311.8374145218695" yOffset="337.1930328985379"/>
+    <component base="ringcomb" xScale="0.9473026046343254" xyScale="0.1320748567838128" yxScale="-0.17049562180355016" yScale="0.7338303149049334" xOffset="291.6659262158138" yOffset="346.7588706496277"/>
   </outline>
 </glyph>

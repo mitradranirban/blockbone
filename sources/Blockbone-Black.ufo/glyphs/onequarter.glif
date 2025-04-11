@@ -4,7 +4,7 @@
   <unicode hex="00BC"/>
   <outline>
     <component base="one" xScale="0.66" yScale="0.66" xOffset="26" yOffset="295"/>
-    <component base="fraction" xScale="1.0601155603813681" xyScale="0.24045659885288878" yxScale="-0.24010915368795535" yScale="0.8194215669496147" xOffset="393.7677616067673" yOffset="11.243563456153906"/>
+    <component base="fraction" xScale="1.0601155603813681" xyScale="0.2399346239128391" yxScale="-0.24010915368795557" yScale="0.8176427947082845" xOffset="163" yOffset="-38.99548236200028"/>
     <component base="four" xScale="0.66" yScale="0.66" xOffset="355" yOffset="2"/>
   </outline>
 </glyph>

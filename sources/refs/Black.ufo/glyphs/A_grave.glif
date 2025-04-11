@@ -2,7 +2,6 @@
 <glyph name="Agrave" format="2">
   <advance width="800"/>
   <unicode hex="00C0"/>
-  <anchor x="289.2332250384968" y="711.9197697043707" name="_top"/>
   <outline>
     <contour>
       <point x="223" y="632" type="line"/>
