@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="F" format="2">
   <advance width="700"/>
   <unicode hex="0046"/>
@@ -13,12 +13,9 @@
       <point x="61" y="771" type="line"/>
       <point x="56" y="738" type="line"/>
       <point x="120" y="722" type="line"/>
-      <point x="142" y="706"/>
-      <point x="149.5" y="682.5" type="qcurve" smooth="yes"/>
-      <point x="157" y="659"/>
-      <point x="154" y="638.5" type="qcurve" smooth="yes"/>
-      <point x="151" y="618"/>
-      <point x="155" y="596" type="qcurve"/>
+      <point x="168" y="687"/>
+      <point x="149" y="636"/>
+      <point x="155" y="596" type="curve"/>
       <point x="152" y="445" type="line"/>
       <point x="153" y="380" type="line"/>
       <point x="152" y="326" type="line"/>
@@ -86,7 +83,4 @@
       <point x="636" y="695" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict/>
-  </lib>
 </glyph>

@@ -496,6 +496,8 @@
     <string>quotesingle.glif</string>
     <key>r</key>
     <string>r.glif</string>
+    <key>registered</key>
+    <string>registered.glif</string>
     <key>ring</key>
     <string>ring.glif</string>
     <key>ringcomb</key>
