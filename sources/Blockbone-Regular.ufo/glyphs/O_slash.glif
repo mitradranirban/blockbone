@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Oslash" format="2">
   <advance width="950"/>
   <unicode hex="00D8"/>
@@ -91,14 +91,12 @@
       <point x="349" y="67" type="line"/>
     </contour>
     <contour>
-      <point x="783" y="829" type="line"/>
-      <point x="65" y="-78" type="line"/>
-      <point x="64" y="-78"/>
-      <point x="82.5" y="-80.5" type="qcurve" smooth="yes"/>
-      <point x="101" y="-83"/>
-      <point x="120" y="-85" type="qcurve" smooth="yes"/>
-      <point x="139" y="-87" type="line"/>
-      <point x="849" y="830" type="line"/>
+      <point x="740.2790117531173" y="814.139891084778" type="line"/>
+      <point x="118.43928877508114" y="-39.85501545049593" type="line"/>
+      <point x="116.97276350639619" y="-40.84696311420532"/>
+      <point x="182.41056778544873" y="-62.121815715101214"/>
+      <point x="182.41056778544873" y="-62.121815715101214" type="curve"/>
+      <point x="801.2682103821185" y="803.5975637739746" type="line"/>
     </contour>
   </outline>
 </glyph>
