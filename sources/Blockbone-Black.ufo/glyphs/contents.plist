@@ -412,6 +412,8 @@
     <string>multiply.glif</string>
     <key>n</key>
     <string>n.glif</string>
+    <key>nbspace</key>
+    <string>nbspace.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
     <key>ntilde</key>

@@ -11,29 +11,23 @@ lookup ligaStandardLigaturesinLatinlookup0 {
     sub \f \l  by \fl;
     sub \f \f  by \uniFB00;
 } ligaStandardLigaturesinLatinlookup0;
- 
 
 lookup fracDiagonalFractionsinLatinlookup2 {
   lookupflag 0;
-    sub \one \slash \two  by \onehalf;
     sub \one \fraction \two  by \onehalf;
-    
-    sub \one \slash \four  by \onequarter;
+    sub \one \slash \two  by \onehalf;
     sub \one \fraction \four  by \onequarter;
-     
-    sub \three \slash \four  by \threequarters;
+    sub \one \slash \four  by \onequarter;
     sub \three \fraction \four  by \threequarters;
-    
+    sub \three \slash \four  by \threequarters;
 } fracDiagonalFractionsinLatinlookup2;
 
- 
- 
 lookup SingleSubstitutionlookup6 {
   lookupflag 0;
-    sub \o by \ordmasculine ;
-    sub \a by \ordfeminine ;
     sub \A by \ordfeminine ;
     sub \O by \ordmasculine ;
+    sub \a by \ordfeminine ;
+    sub \o by \ordmasculine ;
 } SingleSubstitutionlookup6;
 
 lookup ordnOrdinalsinLatinlookup5 {
@@ -43,6 +37,10 @@ lookup ordnOrdinalsinLatinlookup5 {
 } ordnOrdinalsinLatinlookup5;
 
 feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinlookup0;
 
  script latn;
      language dflt ;
@@ -56,7 +54,6 @@ feature frac {
       lookup fracDiagonalFractionsinLatinlookup2;
 } frac;
 
- 
 feature ordn {
 
  script latn;
@@ -65,7 +62,7 @@ feature ordn {
 } ordn;
 
 
- 
+#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Amacron \Aogonek 
 	\Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Cdotaccent \D \Dcaron \Dcroat \E 
