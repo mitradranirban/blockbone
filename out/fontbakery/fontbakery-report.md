@@ -33,117 +33,9 @@ This check relies on the external service <a href="http://namecheck.fontdata.com
 	If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
 
 	Original error message:
-	&lt;class 'requests.exceptions.ConnectionError'&gt;
+	&lt;class 'requests.exceptions.ReadTimeout'&gt;
 </code></pre>
  [code: namecheck-service]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>💥 <b>ERROR</b> Check METADATA.pb includes production subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-includes-production-subsets">googlefonts/metadata/includes_production_subsets</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623093100&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
- [code: error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>💥 <b>ERROR</b> Check if the axes match between the font and the Google Fonts version. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-axes-match">googlefonts/axes_match</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623cf5e70&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
- [code: error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts CJK vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-cjk-vertical-metrics">googlefonts/cjk_vertical_metrics</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623b54940&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
- [code: error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a CJK family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-cjk-vertical-metrics-regressions">googlefonts/cjk_vertical_metrics_regressions</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae623b56a70&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
- [code: error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>💥 <b>ERROR</b> Check font follows the Google Fonts vertical metric schema <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics">googlefonts/vertical_metrics</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae622a7d540&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
- [code: error]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>💥 <b>ERROR</b> Check if the vertical metrics of a family are similar to the same family hosted on Google Fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vertical-metrics-regressions">googlefonts/vertical_metrics_regressions</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 💥 **ERROR** <p>HTTPSConnectionPool(host='fonts.google.com', port=443): Max retries exceeded with url: /metadata/fonts (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae622a7e110&gt;: Failed to resolve 'fonts.google.com' ([Errno -2] Name or service not known)&quot;))</p>
- [code: error]
 
 
 
@@ -169,7 +61,7 @@ This check relies on the external service <a href="http://namecheck.fontdata.com
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Do we have the latest version of FontBakery installed? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#fontbakery-version">fontbakery_version</a></summary>
+    <summary>🔥 <b>FAIL</b> Check that legacy accents aren't used in composite glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#legacy-accents">legacy_accents</a></summary>
     <div>
 
 
@@ -178,9 +70,379 @@ This check relies on the external service <a href="http://namecheck.fontdata.com
 
 
 
-* 🔥 **FAIL** <p>Request to PyPI.org failed with this message:
-HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /pypi/fontbakery/json (Caused by NameResolutionError(&quot;&lt;urllib3.connection.HTTPSConnection object at 0x7ae625716b00&gt;: Failed to resolve 'pypi.org' ([Errno -2] Name or service not known)&quot;))</p>
- [code: connection-error]
+* 🔥 **FAIL** <p>Legacy accent &quot;hungarumlaut&quot; is defined in GDEF as a mark (class 3).</p>
+ [code: legacy-accents-gdef]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_TransLatin_Arabic glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">FAIL messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to J when shaping the text 'ÍJ́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to j when shaping the text 'íj́'</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_TransLatin_Arabic glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŀ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŀ</td>
+<td align="left">ca_Latn (Catalan)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Aogonek when shaping the text 'Ą́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Aogonek when shaping the text 'Ą̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Eogonek when shaping the text 'Ę́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Eogonek when shaping the text 'Ę̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Edotaccent when shaping the text 'Ė́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Edotaccent when shaping the text 'Ė̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Idotaccent when shaping the text 'İ́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Idotaccent when shaping the text 'İ́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to Idotaccent when shaping the text 'İ̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to Idotaccent when shaping the text 'İ̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Idotaccent when shaping the text 'İ̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Idotaccent when shaping the text 'İ̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Iogonek when shaping the text 'Į́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to Iogonek when shaping the text 'Į̇́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to dotaccentcomb when shaping the text 'Į̇́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Iogonek when shaping the text 'Į̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to Iogonek when shaping the text 'Į̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to dotaccentcomb when shaping the text 'Į̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to J when shaping the text 'J̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to J when shaping the text 'J̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to dotaccentcomb when shaping the text 'J̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to L when shaping the text 'L̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to M when shaping the text 'M̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to R when shaping the text 'R̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Uogonek when shaping the text 'Ų́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Uogonek when shaping the text 'Ų̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to Umacron when shaping the text 'Ū́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to Umacron when shaping the text 'Ū̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to aogonek when shaping the text 'ą́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to aogonek when shaping the text 'ą̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to eogonek when shaping the text 'ę́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to eogonek when shaping the text 'ę̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to edotaccent when shaping the text 'ė́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to edotaccent when shaping the text 'ė̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to i when shaping the text 'i̇́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to dotaccentcomb when shaping the text 'i̇́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to i when shaping the text 'i̇̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach gravecomb to dotaccentcomb when shaping the text 'i̇̀'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to i when shaping the text 'i̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to dotaccentcomb when shaping the text 'i̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to iogonek when shaping the text 'į́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to iogonek when shaping the text 'į̇́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to dotaccentcomb when shaping the text 'į̇́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to iogonek when shaping the text 'į̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to iogonek when shaping the text 'į̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to dotaccentcomb when shaping the text 'į̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to j when shaping the text 'j̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach dotaccentcomb to j when shaping the text 'j̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to dotaccentcomb when shaping the text 'j̇̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to l when shaping the text 'l̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to m when shaping the text 'm̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to r when shaping the text 'r̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to uogonek when shaping the text 'ų́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to uogonek when shaping the text 'ų̃'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach acutecomb to umacron when shaping the text 'ū́'</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Shaper didn't attach tildecomb to umacron when shaping the text 'ū̃'</td>
+<td align="left">lt_Latn (Lithuanian)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ŧ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŋ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ŧ</td>
+<td align="left">nb_Latn (Norwegian Bokmål)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ĳ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ĳ</td>
+<td align="left">nl_Latn (Dutch)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
 
 
 
@@ -283,686 +545,6 @@ HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check Google Fonts glyph coverage. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyph-coverage">googlefonts/glyph_coverage</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Missing required codepoints:</p>
-<pre><code>- 0x00A1 (INVERTED EXCLAMATION MARK)
-
-
-- 0x00A2 (CENT SIGN)
-
-
-- 0x00A3 (POUND SIGN)
-
-
-- 0x00A5 (YEN SIGN)
-
-
-- 0x00A7 (SECTION SIGN)
-
-
-- 0x00A8 (DIAERESIS)
-
-
-- 0x00A9 (COPYRIGHT SIGN)
-
-
-- 0x00AA (FEMININE ORDINAL INDICATOR)
-
-
-- 0x00AB (LEFT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00AE (REGISTERED SIGN)
-
-
-- 0x00AF (MACRON)
-
-
-- 0x00B0 (DEGREE SIGN)
-
-
-- 0x00B4 (ACUTE ACCENT)
-
-
-- 0x00B6 (PILCROW SIGN)
-
-
-- 0x00B7 (MIDDLE DOT)
-
-
-- 0x00B8 (CEDILLA)
-
-
-- 0x00BA (MASCULINE ORDINAL INDICATOR)
-
-
-- 0x00BB (RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK)
-
-
-- 0x00BF (INVERTED QUESTION MARK)
-
-
-- 0x00C0 (LATIN CAPITAL LETTER A WITH GRAVE)
-
-
-- 0x00C1 (LATIN CAPITAL LETTER A WITH ACUTE)
-
-
-- 0x00C2 (LATIN CAPITAL LETTER A WITH CIRCUMFLEX)
-
-
-- 0x00C3 (LATIN CAPITAL LETTER A WITH TILDE)
-
-
-- 0x00C4 (LATIN CAPITAL LETTER A WITH DIAERESIS)
-
-
-- 0x00C5 (LATIN CAPITAL LETTER A WITH RING ABOVE)
-
-
-- 0x00C6 (LATIN CAPITAL LETTER AE)
-
-
-- 0x00C7 (LATIN CAPITAL LETTER C WITH CEDILLA)
-
-
-- 0x00C8 (LATIN CAPITAL LETTER E WITH GRAVE)
-
-
-- 0x00C9 (LATIN CAPITAL LETTER E WITH ACUTE)
-
-
-- 0x00CA (LATIN CAPITAL LETTER E WITH CIRCUMFLEX)
-
-
-- 0x00CB (LATIN CAPITAL LETTER E WITH DIAERESIS)
-
-
-- 0x00CC (LATIN CAPITAL LETTER I WITH GRAVE)
-
-
-- 0x00CD (LATIN CAPITAL LETTER I WITH ACUTE)
-
-
-- 0x00CE (LATIN CAPITAL LETTER I WITH CIRCUMFLEX)
-
-
-- 0x00CF (LATIN CAPITAL LETTER I WITH DIAERESIS)
-
-
-- 0x00D0 (LATIN CAPITAL LETTER ETH)
-
-
-- 0x00D1 (LATIN CAPITAL LETTER N WITH TILDE)
-
-
-- 0x00D2 (LATIN CAPITAL LETTER O WITH GRAVE)
-
-
-- 0x00D3 (LATIN CAPITAL LETTER O WITH ACUTE)
-
-
-- 0x00D4 (LATIN CAPITAL LETTER O WITH CIRCUMFLEX)
-
-
-- 0x00D5 (LATIN CAPITAL LETTER O WITH TILDE)
-
-
-- 0x00D6 (LATIN CAPITAL LETTER O WITH DIAERESIS)
-
-
-- 0x00D7 (MULTIPLICATION SIGN)
-
-
-- 0x00D8 (LATIN CAPITAL LETTER O WITH STROKE)
-
-
-- 0x00D9 (LATIN CAPITAL LETTER U WITH GRAVE)
-
-
-- 0x00DA (LATIN CAPITAL LETTER U WITH ACUTE)
-
-
-- 0x00DB (LATIN CAPITAL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00DC (LATIN CAPITAL LETTER U WITH DIAERESIS)
-
-
-- 0x00DD (LATIN CAPITAL LETTER Y WITH ACUTE)
-
-
-- 0x00DE (LATIN CAPITAL LETTER THORN)
-
-
-- 0x00DF (LATIN SMALL LETTER SHARP S)
-
-
-- 0x00E0 (LATIN SMALL LETTER A WITH GRAVE)
-
-
-- 0x00E1 (LATIN SMALL LETTER A WITH ACUTE)
-
-
-- 0x00E2 (LATIN SMALL LETTER A WITH CIRCUMFLEX)
-
-
-- 0x00E3 (LATIN SMALL LETTER A WITH TILDE)
-
-
-- 0x00E4 (LATIN SMALL LETTER A WITH DIAERESIS)
-
-
-- 0x00E5 (LATIN SMALL LETTER A WITH RING ABOVE)
-
-
-- 0x00E6 (LATIN SMALL LETTER AE)
-
-
-- 0x00E7 (LATIN SMALL LETTER C WITH CEDILLA)
-
-
-- 0x00E8 (LATIN SMALL LETTER E WITH GRAVE)
-
-
-- 0x00E9 (LATIN SMALL LETTER E WITH ACUTE)
-
-
-- 0x00EA (LATIN SMALL LETTER E WITH CIRCUMFLEX)
-
-
-- 0x00EB (LATIN SMALL LETTER E WITH DIAERESIS)
-
-
-- 0x00EC (LATIN SMALL LETTER I WITH GRAVE)
-
-
-- 0x00ED (LATIN SMALL LETTER I WITH ACUTE)
-
-
-- 0x00EE (LATIN SMALL LETTER I WITH CIRCUMFLEX)
-
-
-- 0x00EF (LATIN SMALL LETTER I WITH DIAERESIS)
-
-
-- 0x00F0 (LATIN SMALL LETTER ETH)
-
-
-- 0x00F1 (LATIN SMALL LETTER N WITH TILDE)
-
-
-- 0x00F2 (LATIN SMALL LETTER O WITH GRAVE)
-
-
-- 0x00F3 (LATIN SMALL LETTER O WITH ACUTE)
-
-
-- 0x00F4 (LATIN SMALL LETTER O WITH CIRCUMFLEX)
-
-
-- 0x00F5 (LATIN SMALL LETTER O WITH TILDE)
-
-
-- 0x00F6 (LATIN SMALL LETTER O WITH DIAERESIS)
-
-
-- 0x00F7 (DIVISION SIGN)
-
-
-- 0x00F8 (LATIN SMALL LETTER O WITH STROKE)
-
-
-- 0x00F9 (LATIN SMALL LETTER U WITH GRAVE)
-
-
-- 0x00FA (LATIN SMALL LETTER U WITH ACUTE)
-
-
-- 0x00FB (LATIN SMALL LETTER U WITH CIRCUMFLEX)
-
-
-- 0x00FC (LATIN SMALL LETTER U WITH DIAERESIS)
-
-
-- 0x00FD (LATIN SMALL LETTER Y WITH ACUTE)
-
-
-- 0x00FE (LATIN SMALL LETTER THORN)
-
-
-- 0x00FF (LATIN SMALL LETTER Y WITH DIAERESIS)
-
-
-- 0x0100 (LATIN CAPITAL LETTER A WITH MACRON)
-
-
-- 0x0101 (LATIN SMALL LETTER A WITH MACRON)
-
-
-- 0x0102 (LATIN CAPITAL LETTER A WITH BREVE)
-
-
-- 0x0103 (LATIN SMALL LETTER A WITH BREVE)
-
-
-- 0x0104 (LATIN CAPITAL LETTER A WITH OGONEK)
-
-
-- 0x0105 (LATIN SMALL LETTER A WITH OGONEK)
-
-
-- 0x0106 (LATIN CAPITAL LETTER C WITH ACUTE)
-
-
-- 0x0107 (LATIN SMALL LETTER C WITH ACUTE)
-
-
-- 0x010A (LATIN CAPITAL LETTER C WITH DOT ABOVE)
-
-
-- 0x010B (LATIN SMALL LETTER C WITH DOT ABOVE)
-
-
-- 0x010C (LATIN CAPITAL LETTER C WITH CARON)
-
-
-- 0x010D (LATIN SMALL LETTER C WITH CARON)
-
-
-- 0x010E (LATIN CAPITAL LETTER D WITH CARON)
-
-
-- 0x010F (LATIN SMALL LETTER D WITH CARON)
-
-
-- 0x0110 (LATIN CAPITAL LETTER D WITH STROKE)
-
-
-- 0x0111 (LATIN SMALL LETTER D WITH STROKE)
-
-
-- 0x0112 (LATIN CAPITAL LETTER E WITH MACRON)
-
-
-- 0x0113 (LATIN SMALL LETTER E WITH MACRON)
-
-
-- 0x0116 (LATIN CAPITAL LETTER E WITH DOT ABOVE)
-
-
-- 0x0117 (LATIN SMALL LETTER E WITH DOT ABOVE)
-
-
-- 0x0118 (LATIN CAPITAL LETTER E WITH OGONEK)
-
-
-- 0x0119 (LATIN SMALL LETTER E WITH OGONEK)
-
-
-- 0x011A (LATIN CAPITAL LETTER E WITH CARON)
-
-
-- 0x011B (LATIN SMALL LETTER E WITH CARON)
-
-
-- 0x011E (LATIN CAPITAL LETTER G WITH BREVE)
-
-
-- 0x011F (LATIN SMALL LETTER G WITH BREVE)
-
-
-- 0x0120 (LATIN CAPITAL LETTER G WITH DOT ABOVE)
-
-
-- 0x0121 (LATIN SMALL LETTER G WITH DOT ABOVE)
-
-
-- 0x0122 (LATIN CAPITAL LETTER G WITH CEDILLA)
-
-
-- 0x0123 (LATIN SMALL LETTER G WITH CEDILLA)
-
-
-- 0x0126 (LATIN CAPITAL LETTER H WITH STROKE)
-
-
-- 0x0127 (LATIN SMALL LETTER H WITH STROKE)
-
-
-- 0x012A (LATIN CAPITAL LETTER I WITH MACRON)
-
-
-- 0x012B (LATIN SMALL LETTER I WITH MACRON)
-
-
-- 0x012E (LATIN CAPITAL LETTER I WITH OGONEK)
-
-
-- 0x012F (LATIN SMALL LETTER I WITH OGONEK)
-
-
-- 0x0130 (LATIN CAPITAL LETTER I WITH DOT ABOVE)
-
-
-- 0x0131 (LATIN SMALL LETTER DOTLESS I)
-
-
-- 0x0136 (LATIN CAPITAL LETTER K WITH CEDILLA)
-
-
-- 0x0137 (LATIN SMALL LETTER K WITH CEDILLA)
-
-
-- 0x0139 (LATIN CAPITAL LETTER L WITH ACUTE)
-
-
-- 0x013A (LATIN SMALL LETTER L WITH ACUTE)
-
-
-- 0x013B (LATIN CAPITAL LETTER L WITH CEDILLA)
-
-
-- 0x013C (LATIN SMALL LETTER L WITH CEDILLA)
-
-
-- 0x013D (LATIN CAPITAL LETTER L WITH CARON)
-
-
-- 0x013E (LATIN SMALL LETTER L WITH CARON)
-
-
-- 0x0141 (LATIN CAPITAL LETTER L WITH STROKE)
-
-
-- 0x0142 (LATIN SMALL LETTER L WITH STROKE)
-
-
-- 0x0143 (LATIN CAPITAL LETTER N WITH ACUTE)
-
-
-- 0x0144 (LATIN SMALL LETTER N WITH ACUTE)
-
-
-- 0x0145 (LATIN CAPITAL LETTER N WITH CEDILLA)
-
-
-- 0x0146 (LATIN SMALL LETTER N WITH CEDILLA)
-
-
-- 0x0147 (LATIN CAPITAL LETTER N WITH CARON)
-
-
-- 0x0148 (LATIN SMALL LETTER N WITH CARON)
-
-
-- 0x0150 (LATIN CAPITAL LETTER O WITH DOUBLE ACUTE)
-
-
-- 0x0151 (LATIN SMALL LETTER O WITH DOUBLE ACUTE)
-
-
-- 0x0152 (LATIN CAPITAL LIGATURE OE)
-
-
-- 0x0153 (LATIN SMALL LIGATURE OE)
-
-
-- 0x0154 (LATIN CAPITAL LETTER R WITH ACUTE)
-
-
-- 0x0155 (LATIN SMALL LETTER R WITH ACUTE)
-
-
-- 0x0158 (LATIN CAPITAL LETTER R WITH CARON)
-
-
-- 0x0159 (LATIN SMALL LETTER R WITH CARON)
-
-
-- 0x015A (LATIN CAPITAL LETTER S WITH ACUTE)
-
-
-- 0x015B (LATIN SMALL LETTER S WITH ACUTE)
-
-
-- 0x015E (LATIN CAPITAL LETTER S WITH CEDILLA)
-
-
-- 0x015F (LATIN SMALL LETTER S WITH CEDILLA)
-
-
-- 0x0160 (LATIN CAPITAL LETTER S WITH CARON)
-
-
-- 0x0161 (LATIN SMALL LETTER S WITH CARON)
-
-
-- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-
-
-- 0x0165 (LATIN SMALL LETTER T WITH CARON)
-
-
-- 0x016A (LATIN CAPITAL LETTER U WITH MACRON)
-
-
-- 0x016B (LATIN SMALL LETTER U WITH MACRON)
-
-
-- 0x016E (LATIN CAPITAL LETTER U WITH RING ABOVE)
-
-
-- 0x016F (LATIN SMALL LETTER U WITH RING ABOVE)
-
-
-- 0x0170 (LATIN CAPITAL LETTER U WITH DOUBLE ACUTE)
-
-
-- 0x0171 (LATIN SMALL LETTER U WITH DOUBLE ACUTE)
-
-
-- 0x0172 (LATIN CAPITAL LETTER U WITH OGONEK)
-
-
-- 0x0173 (LATIN SMALL LETTER U WITH OGONEK)
-
-
-- 0x0174 (LATIN CAPITAL LETTER W WITH CIRCUMFLEX)
-
-
-- 0x0175 (LATIN SMALL LETTER W WITH CIRCUMFLEX)
-
-
-- 0x0176 (LATIN CAPITAL LETTER Y WITH CIRCUMFLEX)
-
-
-- 0x0177 (LATIN SMALL LETTER Y WITH CIRCUMFLEX)
-
-
-- 0x0178 (LATIN CAPITAL LETTER Y WITH DIAERESIS)
-
-
-- 0x0179 (LATIN CAPITAL LETTER Z WITH ACUTE)
-
-
-- 0x017A (LATIN SMALL LETTER Z WITH ACUTE)
-
-
-- 0x017B (LATIN CAPITAL LETTER Z WITH DOT ABOVE)
-
-
-- 0x017C (LATIN SMALL LETTER Z WITH DOT ABOVE)
-
-
-- 0x017D (LATIN CAPITAL LETTER Z WITH CARON)
-
-
-- 0x017E (LATIN SMALL LETTER Z WITH CARON)
-
-
-- 0x0218 (LATIN CAPITAL LETTER S WITH COMMA BELOW)
-
-
-- 0x0219 (LATIN SMALL LETTER S WITH COMMA BELOW)
-
-
-- 0x021A (LATIN CAPITAL LETTER T WITH COMMA BELOW)
-
-
-- 0x021B (LATIN SMALL LETTER T WITH COMMA BELOW)
-
-
-- 0x0237 (LATIN SMALL LETTER DOTLESS J)
-
-
-- 0x02C6 (MODIFIER LETTER CIRCUMFLEX ACCENT)
-
-
-- 0x02C7 (CARON)
-
-
-- 0x02D8 (BREVE)
-
-
-- 0x02D9 (DOT ABOVE)
-
-
-- 0x02DA (RING ABOVE)
-
-
-- 0x02DB (OGONEK)
-
-
-- 0x02DC (SMALL TILDE)
-
-
-- 0x02DD (DOUBLE ACUTE ACCENT)
-
-
-- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-- 0x0303 (COMBINING TILDE)
-
-
-- 0x0304 (COMBINING MACRON)
-
-
-- 0x0306 (COMBINING BREVE)
-
-
-- 0x0307 (COMBINING DOT ABOVE)
-
-
-- 0x0308 (COMBINING DIAERESIS)
-
-
-- 0x030A (COMBINING RING ABOVE)
-
-
-- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-- 0x030C (COMBINING CARON)
-
-
-- 0x0326 (COMBINING COMMA BELOW)
-
-
-- 0x0327 (COMBINING CEDILLA)
-
-
-- 0x0328 (COMBINING OGONEK)
-
-
-- 0x1E80 (LATIN CAPITAL LETTER W WITH GRAVE)
-
-
-- 0x1E81 (LATIN SMALL LETTER W WITH GRAVE)
-
-
-- 0x1E82 (LATIN CAPITAL LETTER W WITH ACUTE)
-
-
-- 0x1E83 (LATIN SMALL LETTER W WITH ACUTE)
-
-
-- 0x1E84 (LATIN CAPITAL LETTER W WITH DIAERESIS)
-
-
-- 0x1E85 (LATIN SMALL LETTER W WITH DIAERESIS)
-
-
-- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-- 0x1EF2 (LATIN CAPITAL LETTER Y WITH GRAVE)
-
-
-- 0x1EF3 (LATIN SMALL LETTER Y WITH GRAVE)
-
-
-- 0x2013 (EN DASH)
-
-
-- 0x2014 (EM DASH)
-
-
-- 0x2018 (LEFT SINGLE QUOTATION MARK)
-
-
-- 0x2019 (RIGHT SINGLE QUOTATION MARK)
-
-
-- 0x201A (SINGLE LOW-9 QUOTATION MARK)
-
-
-- 0x201C (LEFT DOUBLE QUOTATION MARK)
-
-
-- 0x201D (RIGHT DOUBLE QUOTATION MARK)
-
-
-- 0x201E (DOUBLE LOW-9 QUOTATION MARK)
-
-
-- 0x2022 (BULLET)
-
-
-- 0x2026 (HORIZONTAL ELLIPSIS)
-
-
-- 0x2039 (SINGLE LEFT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x203A (SINGLE RIGHT-POINTING ANGLE QUOTATION MARK)
-
-
-- 0x2122 (TRADE MARK SIGN)
-
-
-- 0x2212 (MINUS SIGN)
-</code></pre>
- [code: missing-codepoints]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
     <div>
 
@@ -972,7 +554,7 @@ HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /
 
 
 
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.200&quot;</p>
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.500&quot;</p>
  [code: bad-version-strings]
 
 
@@ -991,8 +573,71 @@ HTTPSConnectionPool(host='pypi.org', port=443): Max retries exceeded with url: /
 
 
 * ⚠️ **WARN** <p>The following mark characters could be in the GDEF mark glyph class:
-gravecomb (U+0300)</p>
+brevecomb (U+0306), caroncomb (U+030C), cedillacomb (U+0327), circumflexcomb (U+0302), dieresiscomb (U+0308), ogonekcomb (U+0328), ringcomb (U+030A) and tildecomb (U+0303)</p>
  [code: mark-chars]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check GDEF mark glyph class doesn't have characters that are not marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-non-mark-chars">opentype/gdef_non_mark_chars</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following non-mark characters should not be in the GDEF mark glyph class:
+U+00C0 and U+02DD</p>
+ [code: non-mark-chars]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check glyphs in mark glyph class are non-spacing. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-gdef-spacing-marks">opentype/gdef_spacing_marks</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs seem to be spacing (because they have width &gt; 0 on the hmtx table) so they may be in the GDEF mark glyph class by mistake, or they should have zero width instead:
+Agrave (U+00C0) and hungarumlaut (U+02DD)</p>
+ [code: spacing-mark-glyphs]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
+    <div>
+
+
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Lcaron is decomposed and therefore could not be checked. Please check manually.</p>
+ [code: decomposed-outline]
+
+
+
+* ⚠️ **WARN** <p>dcaron is decomposed and therefore could not be checked. Please check manually.</p>
+ [code: decomposed-outline]
 
 
 
@@ -1028,29 +673,159 @@ gravecomb (U+0300)</p>
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+<pre><code>- Contour 0 point 78 in glyph 'Udieresis' has a kink between location wght=400 and location wght=900
 
-- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
+- Contour 2 point 0 in glyph 'Udieresis' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Cacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'Zcaron': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 point 111 in glyph 'w' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Ograve': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'dcroat': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Wgrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 139 in glyph 'Wgrave' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'aring': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Lacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'quotesinglbase': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Ugrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Aacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 7 in glyph 'micro' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'quoteright': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'Oacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'zdotaccent': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 39 in glyph 'zdotaccent' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'z': becomes underweight between wght=400 and wght=900.
 
 - Contour 0 point 39 in glyph 'z' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'germandbls': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
+- Contour 0 point 24 in glyph 'germandbls' has a kink between location wght=400 and location wght=900
 
-- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
+- Contour 0 point 82 in glyph 'germandbls' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'zacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'zacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 39 in glyph 'zacute' has a kink between location wght=400 and location wght=900
 
 - Contour 0 in glyph 'gravecomb': becomes underweight between wght=400 and wght=900.
 
+- Contour 1 in glyph 'Nacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Ygrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'S': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Wacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 139 in glyph 'Wacute' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'Scaron': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'three': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 61 in glyph 'three' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'dcaron': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 in glyph 'dcaron': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 start point differs in glyph 'Lslash' between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Iacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'lacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 start point differs in glyph 'OE' between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'OE': becomes underweight between wght=400 and wght=900.
+
+- Contour 2 start point differs in glyph 'OE' between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Ohungarumlaut': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'atilde': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'iacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'Scedilla': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Racute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'perthousand': becomes underweight between wght=400 and wght=900.
+
+- Contour 3 in glyph 'perthousand': becomes underweight between wght=400 and wght=900.
+
+- Contour 5 in glyph 'perthousand': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 point 10 in glyph 'perthousand' has a kink between location wght=400 and location wght=900
+
+- Contour 3 point 10 in glyph 'perthousand' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'Sacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Sacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Uacute': becomes underweight between wght=400 and wght=900.
+
 - Contour 0 in glyph 'a': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'semicolon': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'Zacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Zacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'quoteleft': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Oslash': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 63 in glyph 'eth' has a kink between location wght=400 and location wght=900
+
+- Contour 0 point 44 in glyph 'yen' has a kink between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Odieresis': becomes underweight between wght=400 and wght=900.
+
+- Contour 3 start point differs in glyph 'Odieresis' between location wght=400 and location wght=900
+
+- Contour 3 in glyph 'Odieresis': becomes underweight between wght=400 and wght=900.
 
 - Contour 1 in glyph 'percent': becomes underweight between wght=400 and wght=900.
 
@@ -1060,25 +835,63 @@ gravecomb (U+0300)</p>
 
 - Contour 3 point 10 in glyph 'percent' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'three': becomes underweight between wght=400 and wght=900.
+- Contour 2 start point differs in glyph 'B' between location wght=400 and location wght=900
 
-- Contour 0 point 61 in glyph 'three' has a kink between location wght=400 and location wght=900
+- Contour 2 start point differs in glyph 'Edieresis' between location wght=400 and location wght=900
 
-- Contour 0 point 134 in glyph 'X' has a kink between location wght=400 and location wght=900
+- Contour 2 in glyph 'Edieresis': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 50 in glyph 'v' has a kink between location wght=400 and location wght=900
+- Contour 0 point 122 in glyph 'asterisk' has a kink between location wght=400 and location wght=900
 
-- Contour 0 in glyph 'grave': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'Agrave': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 in glyph 'slash': becomes underweight between wght=400 and wght=900.
+- Contour 0 point 139 in glyph 'W' has a kink between location wght=400 and location wght=900
 
-- Contour 1 in glyph 'O': becomes underweight between wght=400 and wght=900.
+- Contour 0 in glyph 'threequarters': becomes underweight between wght=400 and wght=900.
 
-- Contour 0 point 66 in glyph 'nine' has a kink between location wght=400 and location wght=900
+- Contour 0 point 49 in glyph 'threequarters' has a kink between location wght=400 and location wght=900
 
-- Contour 0 point 18 in glyph 'zero' has a kink between location wght=400 and location wght=900
+- Contour 1 in glyph 'Egrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'Z': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 start point differs in glyph 'Adieresis' between location wght=400 and location wght=900
+
+- Contour 1 in glyph 'Adieresis': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Eacute': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'acutecomb': becomes underweight between wght=400 and wght=900.
+
+- Contour 1 in glyph 'Igrave': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'threesuperior': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 point 49 in glyph 'threesuperior' has a kink between location wght=400 and location wght=900
+
+- Contour 0 in glyph 'Zdotaccent': becomes underweight between wght=400 and wght=900.
+
+- Contour 0 in glyph 'd': becomes underweight between wght=400 and wght=900.
 </code></pre>
  [code: interpolation-issues]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Are there caret positions declared for every ligature? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#ligature-carets">ligature_carets</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>This font lacks caret position values for ligature glyphs on its GDEF table.</p>
+ [code: lacks-caret-pos]
 
 
 
@@ -1113,12 +926,12 @@ gravecomb (U+0300)</p>
 
 
 
-* ⚠️ **WARN** <p>The most common width is 550 among a set of 2 math glyphs.
+* ⚠️ **WARN** <p>The most common width is 550 among a set of 4 math glyphs.
 The following math glyphs have a different width, though:</p>
 <p>Width = 600:
-equal</p>
+logicalnot, equal, plusminus</p>
 <p>Width = 500:
-greater</p>
+multiply, greater</p>
  [code: width-outliers]
 
 
@@ -1139,7 +952,9 @@ greater</p>
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
 <pre><code>* R (U+0052): L&lt;&lt;260.0,414.0&gt;--&lt;261.0,365.0&gt;&gt; has the same coordinates as a previous segment.
 
-* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+* Racute (U+0154): L&lt;&lt;260.0,414.0&gt;--&lt;261.0,365.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Rcaron (U+0158): L&lt;&lt;260.0,414.0&gt;--&lt;261.0,365.0&gt;&gt; has the same coordinates as a previous segment.
 
 * asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -1158,8 +973,34 @@ greater</p>
 * asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
 
 * asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* asterisk (U+002A): L&lt;&lt;270.0,329.0&gt;--&lt;270.0,329.0&gt;&gt; has the same coordinates as a previous segment.
+
+* paragraph (U+00B6): B&lt;&lt;299.0,501.0&gt;-&lt;299.0,501.0&gt;-&lt;299.0,501.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- idotaccent
+
+- periodcentered.loclCAT
+</code></pre>
+ [code: unreachable-glyphs]
 
 
 
@@ -1185,6 +1026,69 @@ greater</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following codepoints supported by the font are not covered by
+any subsets defined in the font's metadata file, and will never
+be served. You can solve this by either manually adding additional
+subset declarations to METADATA.pb, or by editing the glyphset
+definitions.</p>
+<ul>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
+<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: hebrew, coptic, tai-le, canadian-aboriginal, syriac, duployan, old-permic, malayalam, math, tifinagh, todhri</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0326 COMBINING COMMA BELOW: try adding math</li>
+<li>U+0327 COMBINING CEDILLA: try adding math</li>
+<li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
+<li>U+2021 DOUBLE DAGGER: try adding adlam</li>
+<li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+FB00 LATIN SMALL LIGATURE FF: not included in any glyphset definition</li>
+<li>U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition</li>
+<li>U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition</li>
+<li>U+FB03 LATIN SMALL LIGATURE FFI: not included in any glyphset definition</li>
+<li>U+FB04 LATIN SMALL LIGATURE FFL: not included in any glyphset definition</li>
+<li>U+FB05 LATIN SMALL LIGATURE LONG S T: not included in any glyphset definition</li>
+</ul>
+<p>Or you can add the above codepoints to one of the subsets supported by the font: <code>latin</code>, <code>latin-ext</code></p>
+ [code: unreachable-subsetting]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>No dotted circle glyph present</p>
+ [code: missing-dotted-circle]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
@@ -1194,8 +1098,8 @@ greater</p>
 
 
 
-* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̀</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ì</p>
+* ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: ĩ ĭ i̇ ǐ ĩ̦ ĭ̦ i̦̇ i̦̊ i̦̋ ǐ̦ ĩ̧ ĭ̧ i̧̇ i̧̊ i̧̋ ǐ̧ ĵ j̆ j̇ j̊</p>
  [code: soft-dotted]
 
 
@@ -1220,51 +1124,19 @@ greater</p>
 
 * asterisk (U+002A) has a counter-clockwise outer contour
 
+* cent (U+00A2) has a counter-clockwise outer contour
+
+* daggerdbl (U+2021) has a counter-clockwise outer contour
+
 * exclam (U+0021) has a counter-clockwise outer contour
 
+* exclamdown (U+00A1) has a counter-clockwise outer contour
+
 * question (U+003F) has a counter-clockwise outer contour
+
+* questiondown (U+00BF) has a counter-clockwise outer contour
 </code></pre>
  [code: ccw-outer-contour]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-</div>
-</details>
-
-<details><summary>[1] Family checks</summary>
-<div>
-<details>
-    <summary>🔥 <b>FAIL</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-use-typo-metrics">googlefonts/use_typo_metrics</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/variable/Blockbone[wght].ttf'].</p>
- [code: missing-os2-fsselection-bit7]
 
 
 
@@ -1280,8 +1152,8 @@ greater</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 7 | 0 | 8 | 10 | 87 | 7 | 117 | 0 | 
-| 3% | 0% | 3% | 4% | 37% | 3% | 50% | 0% | 
+| 1 | 0 | 7 | 16 | 89 | 8 | 115 | 0 | 
+| 0% | 0% | 3% | 7% | 38% | 3% | 49% | 0% | 
 
 
 

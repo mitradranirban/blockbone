@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="commaaccentcomb" format="2">
-  <advance width="0"/>
   <unicode hex="0326"/>
   <anchor x="1" y="256" name="_base"/>
   <outline>
-    <component base="comma" xOffset="-114"/>
+    <component base="comma" xScale="0.8" yScale="0.608659793814433" xOffset="-88.49194594862297" yOffset="18.334845360824758"/>
   </outline>
 </glyph>

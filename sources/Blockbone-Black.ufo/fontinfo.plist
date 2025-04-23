@@ -10,6 +10,10 @@
     <integer>-200</integer>
     <key>familyName</key>
     <string>BlockBone</string>
+    <key>versionMajor</key>
+    <integer>0</integer>
+    <key>versionMinor</key>
+    <integer>500</integer>
     <key>guidelines</key>
     <array/>
     <key>italicAngle</key>
@@ -32,7 +36,7 @@ This license is available with a FAQ at: https://openfontlicence.org
     <string>https://openfontlicence.org
 </string>
     <key>openTypeNameVersion</key>
-    <string>Version 0.001</string>
+    <string>Version 0.500</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>9</integer>
@@ -69,6 +73,10 @@ This license is available with a FAQ at: https://openfontlicence.org
     <integer>1200</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>300</integer>
+    <key>openTypeOS2Selection</key>
+    <array>
+    <integer>7</integer>
+    </array>
     <key>postscriptFontName</key>
     <string>Blockbone-Black</string>
     <key>postscriptFullName</key>

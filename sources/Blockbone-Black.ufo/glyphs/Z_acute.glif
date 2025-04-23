@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zacute" format="2">
+  <advance width="740.016790809241"/>
+  <unicode hex="0179"/>
+  <outline>
+    <component base="Z"/>
+    <component base="acutecomb" xScale="0.9877916217697965" xyScale="-0.15578097432419424" yxScale="0.15578097432419424" yScale="0.9877916217697965" xOffset="297.41432990517654" yOffset="92.46913271307133"/>
+  </outline>
+</glyph>
