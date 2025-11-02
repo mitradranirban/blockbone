@@ -61,8 +61,6 @@ feature ordn {
       lookup ordnOrdinalsinLatinlookup5;
 } ordn;
 
-
-
 #Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Amacron \Aogonek 
